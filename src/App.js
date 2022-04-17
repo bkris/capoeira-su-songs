@@ -1,9 +1,9 @@
 import './App.css';
 import Container from 'react-bootstrap/Container';
-import Header from "./page/Header";
-import TableOfContent from "./page/TableOfContent";
-import SongList from "./page/SongList";
-import SearchHeader from "./page/SearchHeader";
+import Header from "./components/Header";
+import TableOfContent from "./components/TableOfContent";
+import SongList from "./components/SongList";
+import SearchHeader from "./components/SearchHeader";
 import {useState} from "react";
 import {getSortedSongs} from "./song.service";
 import {isEmpty} from "lodash";
