@@ -1,0 +1,15 @@
+{
+  "name": "Marinheiro só",
+  "lyrics":"Eu não sou daqui\nCoro : Marinheiro só \nEu não tenho amor\nMarinheiro só \nEu sou da bahia\nMarinheiro só \nDe são salvador\nMarinheiro só \nLá vem, lá vem\nMarinheiro só \nComo ele vem faceiro\nMarinheiro só\nTodo de branco\nMarinheiro só \nCom o seu bonezinho\nMarinheiro só \nÔ, marinheiro marinheiro\nMarinheiro só\nÔ, quem te ensinou a nadar\nMarinheiro só \nOu foi o tombo do navio\nMarinheiro só \nOu foi o balanço do mar\nMarinheiro só\nLá vem, lá vem\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I'm not from here\nChorus: Lonely Sailor\nI have no love\nOnly sailor\nI am from Bahia\nOnly sailor\nFrom San Salvador\nOnly sailor\nHere it comes, there it comes\nOnly sailor\nHow cool is he?\nOnly sailor\nAll in white\nOnly sailor\nWith your little bone\nOnly sailor\nÔ, sailor sailor\nOnly sailor\nWho taught you to swim?\nOnly sailor\nOr was the ship's fall\nOnly sailor\nOr was the sea swing\nOnly sailor\nHere it comes, there it comes\n"
+    }
+  ],
+  "media": {
+    "type": "video",
+    "provider": "youtube",
+    "link": "https://www.youtube.com/watch?v=mjqG0UlpTb8"
+  }
+}
