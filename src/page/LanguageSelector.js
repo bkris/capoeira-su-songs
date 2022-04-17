@@ -20,9 +20,10 @@ function LanguageSelector({languages = [], onLanguageChange}) {
       {languages.map((lng, idx) => (
         <ToggleButton
           key={idx}
+          size="sm"
           id={`radio-${idx}`}
           type="radio"
-          variant="light"
+          variant="outline-dark"
           name="radio"
           value={lng}
           checked={radioValue === lng}

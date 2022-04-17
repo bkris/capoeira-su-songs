@@ -20,11 +20,10 @@ function Song({id, name, lyrics, translations = [], media, language='eng'}) {
 
     <Row className={'pb-4'} id={id}>
       <Col lg={12} className={'pb-3'}>
-        <div className="justify-content-end">
+        <h4 className="d-flex justify-content-between border-bottom">
           <span>{name}</span>
           <LanguageSelector languages={languages} onLanguageChange={onLanguageChange}/>
-        </div>
-        <hr/>
+        </h4>
       </Col>
       <Col lg={6}>
         <pre>{lyrics}</pre>
