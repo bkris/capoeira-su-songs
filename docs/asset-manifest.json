@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.b87b42b3.css",
-    "main.js": "./static/js/main.da414cc7.js",
-    "static/js/787.7e7f6f71.chunk.js": "./static/js/787.7e7f6f71.chunk.js",
-    "index.html": "./index.html",
-    "main.b87b42b3.css.map": "./static/css/main.b87b42b3.css.map",
-    "main.da414cc7.js.map": "./static/js/main.da414cc7.js.map",
-    "787.7e7f6f71.chunk.js.map": "./static/js/787.7e7f6f71.chunk.js.map"
+    "main.css": "/capoeira-su-songs/static/css/main.b87b42b3.css",
+    "main.js": "/capoeira-su-songs/static/js/main.6d84e5bf.js",
+    "static/js/787.7e7f6f71.chunk.js": "/capoeira-su-songs/static/js/787.7e7f6f71.chunk.js",
+    "index.html": "/capoeira-su-songs/index.html",
+    "main.b87b42b3.css.map": "/capoeira-su-songs/static/css/main.b87b42b3.css.map",
+    "main.6d84e5bf.js.map": "/capoeira-su-songs/static/js/main.6d84e5bf.js.map",
+    "787.7e7f6f71.chunk.js.map": "/capoeira-su-songs/static/js/787.7e7f6f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b87b42b3.css",
-    "static/js/main.da414cc7.js"
+    "static/js/main.6d84e5bf.js"
   ]
 }
