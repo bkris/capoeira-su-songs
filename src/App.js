@@ -7,6 +7,7 @@ import SearchHeader from "./components/SearchHeader";
 import {useState} from "react";
 import {getSortedSongs} from "./song.service";
 import {isEmpty} from "lodash";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const allSongs = getSortedSongs();
@@ -22,13 +23,16 @@ function App() {
   };
 
   return (
-    <Container fluid="lg">
-      <Header />
-      <TableOfContent songs={songs}>
-        <SearchHeader onSearch={handleSearch}/>
-      </TableOfContent>
-      <SongList songs={songs}/>
-    </Container>
+    <>
+      <Container fluid="lg">
+        <Header />
+        <TableOfContent songs={songs}>
+          <SearchHeader onSearch={handleSearch}/>
+        </TableOfContent>
+        <SongList songs={songs}/>
+      </Container>
+      <ScrollToTop/>
+    </>
   );
 }
 
