@@ -1,24 +1,34 @@
 import {Row, Col} from "react-bootstrap";
-import {isNil} from "lodash";
+import {flatMap, isEmpty, isNil, uniq} from "lodash";
 import Media from "./Media";
 import LanguageSelector from "./LanguageSelector";
 import {useState} from "react";
 
-function Song({id, name, lyrics, translations = [], media, language='eng'}) {
+function Song({id, name, lyrics, translations = [], media, language='eng', descriptions=[]}) {
   const hasMedia = !isNil(media);
+  const hasDescription = !isEmpty(descriptions);
   const translation = translations.find(translation => translation.language === language)
-  const languages = translations.map(_ => _.language);
+  const languages = uniq(flatMap([
+    translations.map(_ => _.language),
+    descriptions.map(_ => _.language)
+  ]));
+
+  const description = descriptions.find(desc => desc.language === language)
 
   const [translationText, setTranslationText] = useState(translation ? translation.text : "");
+  const [descriptionText, setDescriptionText] = useState(description ? description.text : "");
 
   const onLanguageChange = (lang) => {
     const translation = translations.find(translation => translation.language === lang);
+    const description = descriptions.find(desc => desc.language === lang);
+
     setTranslationText(translation ? translation.text : "");
+    setDescriptionText(description ? description.text : "");
   }
 
   return (
 
-    <Row className={'pb-4'} id={id}>
+    <Row className={'pb-5'} id={id}>
       <Col lg={12} className={'pb-3'}>
         <h4 className="d-flex justify-content-between border-bottom">
           <span>{name}</span>
@@ -31,6 +41,9 @@ function Song({id, name, lyrics, translations = [], media, language='eng'}) {
       <Col lg={6}>
         <pre>{translationText}</pre>
       </Col>
+
+      { hasDescription && <Col lg={12}>{descriptionText}</Col> }
+
       { hasMedia && <Col md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }}>
         <Media link={media.link} provider={media.provider} type={media.type}/>
       </Col> }

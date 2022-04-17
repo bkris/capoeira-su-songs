@@ -11,6 +11,7 @@ function SongList({songs=[]}) {
           lyrics={song.lyrics}
           translations={song.translations}
           media={song.media}
+          descriptions={song.descriptions}
     ></Song>
   ))
 

@@ -1,0 +1,25 @@
+{
+  "name": "Ai ai Aide",
+  "lyrics":"Ai ai Aide\nai, ai, aidê,\nJoga bonito que eu quero ver\nAi, ai, aidê.\nJoga bonito que eu quero aprender\nAi, ai, aidê.\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Ai ai Aide\nai, ai, aidê,\nPlay beautifully because I want to see\nAi, ai, aidê.\nPlay beautifully because I want to learn\nAi, ai, aidê.\n"
+    }
+  ],
+  "media": {
+    "type": "video",
+    "provider": "youtube",
+    "link": "https://www.youtube.com/watch?v=rcv1rver5E0"
+  },
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "This song is frequently directed at players who are making mistakes or generally playing sloppily in the roda. It can also be sung as a celebration of a great game in progress."
+    },
+    {
+      "language": "hun",
+      "text": "Ez a dal gyakran olyan játékosoknak szól, akik hibákat követnek el, vagy általában hanyagul játszanak a rodában. Illetve énekelhető ha nagyot fejlődik a játék (??)"
+    }
+  ]
+}
