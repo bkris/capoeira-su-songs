@@ -1,15 +1,15 @@
 {
   "name": "",
-  "lyrics":"",
+  "lyrics": "",
   "translations": [
     {
-      "language": "",
+      "language": "eng",
       "text": ""
     }
   ],
   "media": {
     "type": "video",
-    "provider": "",
+    "provider": "youtube",
     "link": ""
   }
 }
