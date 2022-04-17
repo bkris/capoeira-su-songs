@@ -21,9 +21,9 @@ function TableOfContent({children , songs = []}) {
     {children}
     <Row className="mb-5">
       <Col xs={12}>
-        <ul>
+        <ol>
           {songList}
-        </ul>
+        </ol>
       </Col>
     </Row>
     </>
