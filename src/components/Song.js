@@ -32,7 +32,7 @@ function Song({id, name, lyrics, translations = [], media, language='eng', descr
       <Col lg={12} className={'pb-3'}>
         <h4 className="d-flex justify-content-between border-bottom">
           <span>{name}</span>
-          <LanguageSelector languages={languages} onLanguageChange={onLanguageChange}/>
+          <LanguageSelector id={id} languages={languages} onLanguageChange={onLanguageChange}/>
         </h4>
       </Col>
       <Col lg={6}>

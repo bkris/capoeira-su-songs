@@ -2,15 +2,14 @@ import {ButtonGroup, ToggleButton} from "react-bootstrap";
 import {useState} from "react";
 
 /**
- *
+ * @param {string} id
  * @param {string[]} languages
  * @param onLanguageChange
  * @returns {JSX.Element}
  * @constructor
  */
-function LanguageSelector({languages = [], onLanguageChange}) {
+function LanguageSelector({id, languages = [], onLanguageChange}) {
   const [radioValue, setRadioValue] = useState('eng');
-  const componentId = Math.ceil(Math.random() * 1000);
 
   if (languages.length <= 1) {
     return <></>;
@@ -22,7 +21,7 @@ function LanguageSelector({languages = [], onLanguageChange}) {
   }
 
   const buttons = languages.map((lng, idx) => {
-    const buttonId = `${componentId}-${idx}`;
+    const buttonId = `${id}-${idx}`;
     return (
       <ToggleButton
         key={buttonId}
@@ -30,7 +29,7 @@ function LanguageSelector({languages = [], onLanguageChange}) {
         id={buttonId}
         type="radio"
         variant="outline-dark"
-        name="radio"
+        name={buttonId}
         value={lng}
         checked={radioValue === lng}
         onChange={handleLanguageChange}
