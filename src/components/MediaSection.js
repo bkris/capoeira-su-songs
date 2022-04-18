@@ -4,15 +4,8 @@ import Media from "./Media";
 import {useContext} from "react";
 
 /**
- * @typedef MediaInterface
- * @property {'youtube', 'facebook', 'instagram'} provider
- * @property {'video', 'audio'} type
- * @property {string} link
- */
-
-/**
  * Renders the media section in songs component
- * @param {MediaInterface, MediaInterface[]} media
+ * @param {Media, Media[]} media
  * @returns {JSX.Element}
  * @constructor
  */
@@ -22,7 +15,7 @@ export default function MediaSection({media}) {
   }
 
   /**
-   * @param {MediaInterface} m
+   * @param {Media} m
    * @param {number} index
    * @returns {JSX.Element}
    */

@@ -15,10 +15,7 @@ function App() {
 
   let handleSearch = (e) => {
     const lowerCase = e.target.value.toLowerCase();
-    const filteredSongs = allSongs.filter(song => {
-      console.log(lowerCase, song.name.includes(lowerCase));
-      return isEmpty(lowerCase) ? true : song.name.toLowerCase().includes(lowerCase);
-    })
+    const filteredSongs = allSongs.filter(song => isEmpty(lowerCase) ? true : song.name.toLowerCase().includes(lowerCase))
     setSongs(filteredSongs);
   };
 

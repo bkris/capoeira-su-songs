@@ -9,10 +9,10 @@ import MediaSection from "./MediaSection";
  * @param {string} id
  * @param {string} name
  * @param {string} lyrics
- * @param {{language: string, text: string}[]} translations
- * @param {MediaInterface, MediaInterface[]} media
- * @param {string} language
- * @param {{language: string, text: string}[]} descriptions
+ * @param {Translated[]} translations
+ * @param {Media, Media[]} media
+ * @param {Language} language
+ * @param {Translated[]} [descriptions]
  * @returns {JSX.Element}
  * @constructor
  */

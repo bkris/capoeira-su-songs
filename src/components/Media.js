@@ -54,6 +54,13 @@ function Soundcloud({link}) {
   );
 }
 
+/**
+ * @param {string} link
+ * @param {Provider} provider
+ * @param {MediaType} type
+ * @returns {JSX.Element|*}
+ * @constructor
+ */
 function Media({link, provider, type}) {
   function renderVideoType() {
     if (provider === 'youtube') {
