@@ -22,7 +22,7 @@ function YoutubeVideo({link}) {
 
 function FacebookVideo({link}) {
   const urlEncodedLink = encodeURI(link);
-  const fullLink = `https://www.facebook.com/plugins/video.php?href=${urlEncodedLink}&show_text=0&width=560`
+  const fullLink = `https://www.facebook.com/plugins/video.php?href=${urlEncodedLink}&show_text=0`
 
   return (
     <Ratio>
