@@ -25,7 +25,7 @@ function FacebookVideo({link}) {
   const fullLink = `https://www.facebook.com/plugins/video.php?href=${urlEncodedLink}&show_text=0`
 
   return (
-    <Ratio>
+    <Ratio aspectRatio="16x9">
       <iframe
         src={fullLink}
         id={urlEncodedLink} title={urlEncodedLink}
@@ -41,21 +41,50 @@ function InstagramVideo({link}) {
   );
 }
 
+function Soundcloud({link}) {
+  const urlEncodedLink = encodeURI(link);
+  const fullLink = `https://w.soundcloud.com/player/?url=${urlEncodedLink}&amp;auto_play=false&amp;hide_related=false&amp;visual=true&amp;show_comments=true&amp;color=false&amp;show_user=true&amp;show_reposts=false`
+
+  return (
+    <Ratio aspectRatio="16x9">
+      <iframe width="100%" scrolling="no" frameBorder="no"
+              id={urlEncodedLink} title={urlEncodedLink}
+              src={fullLink}></iframe>
+    </Ratio>
+  );
+}
+
 function Media({link, provider, type}) {
-  if (type !== "video") {
-    return NO_MEDIA
+  function renderVideoType() {
+    if (provider === 'youtube') {
+      return <YoutubeVideo link={link}/>
+    }
+
+    if (provider === 'facebook') {
+      return <FacebookVideo link={link}/>
+    }
+
+    if (provider === 'instagram') {
+      return <InstagramVideo link={link}/>
+    }
+
+    return NO_MEDIA;
   }
 
-  if (provider === 'youtube') {
-    return <YoutubeVideo link={link}/>
+  function renderAudioType() {
+    if (provider === 'soundcloud') {
+      return <Soundcloud link={link}/>
+    }
+
+    return NO_MEDIA;
   }
 
-  if (provider === 'facebook') {
-    return <FacebookVideo link={link}/>
+  if (type === 'audio') {
+    return renderAudioType();
   }
 
-  if (provider === 'instagram') {
-    return <InstagramVideo link={link}/>
+  if (type === "video") {
+    return renderVideoType();
   }
 
   return NO_MEDIA;
