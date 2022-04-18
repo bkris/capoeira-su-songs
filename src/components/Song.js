@@ -1,11 +1,10 @@
 import {Row, Col} from "react-bootstrap";
-import {isEmpty, isNil, uniq} from "lodash";
+import {isArray, isEmpty, uniq} from "lodash";
 import Media from "./Media";
 import LanguageSelector from "./LanguageSelector";
 import {useState} from "react";
 
 function Song({id, name, lyrics, translations = [], media, language='eng', descriptions=[]}) {
-  const hasMedia = !isNil(media);
   const hasDescription = !isEmpty(descriptions);
   const translation = translations.find(translation => translation.language === language)
   const description = descriptions.find(desc => desc.language === language)
@@ -21,6 +20,26 @@ function Song({id, name, lyrics, translations = [], media, language='eng', descr
     setTranslationText(translation ? translation.text : "");
     setDescriptionText(description ? description.text : "");
   }
+
+  const getMediaSection = () => {
+    if (isEmpty(media)) {
+      return <></>;
+    }
+
+    if (isArray(media)) {
+      return media.map((m, i) => {
+        return <Col key={`${id}-${i}`} md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }} className="pb-3">
+          <Media link={m.link} provider={m.provider} type={m.type}/>
+        </Col>
+      });
+    }
+
+    return <Col md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }}>
+      <Media link={media.link} provider={media.provider} type={media.type}/>
+    </Col>
+  }
+
+  const mediaSection = getMediaSection();
 
   return (
 
@@ -40,9 +59,7 @@ function Song({id, name, lyrics, translations = [], media, language='eng', descr
 
       { hasDescription && <Col lg={12}>{descriptionText}</Col> }
 
-      { hasMedia && <Col md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }}>
-        <Media link={media.link} provider={media.provider} type={media.type}/>
-      </Col> }
+      {mediaSection}
     </Row>
   );
 }
