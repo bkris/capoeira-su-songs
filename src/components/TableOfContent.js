@@ -1,13 +1,13 @@
-import {Row, Col} from "react-bootstrap";
+import {Row, Col, ListGroup} from "react-bootstrap";
 import slugify from "voca/slugify";
 
 function TableOfContent({children , songs = []}) {
-  const songList = songs.map(song => {
+  const songList = songs.map((song, index) => {
     const id = `#${slugify(song.name)}`;
     return (
-      <li key={id}>
-        <a href={id}>{song.name}</a>
-      </li>
+      <ListGroup.Item key={index} action href={id}>
+        {index + 1}. {song.name}
+      </ListGroup.Item>
     )
   })
 
@@ -21,9 +21,9 @@ function TableOfContent({children , songs = []}) {
     {children}
     <Row className="mb-5">
       <Col xs={12}>
-        <ol>
+        <ListGroup>
           {songList}
-        </ol>
+        </ListGroup>
       </Col>
     </Row>
     </>
