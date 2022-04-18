@@ -1,0 +1,15 @@
+{
+  "name": "Canta sabiá canta sabiá",
+  "lyrics": "Canta sabiá canta sabiá\nas seis horas da noite e da manhã o sino da igreja toca\nCanta sabiá canta sabiá\nas seis horas da noite e da manhã o sino da igreja toca\n\nna beira do rio tem a mata, aonde mora ,a passarada\nna beira do rio tem a mata, aonde mora a passarada",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Sing Sabiá Sing Sabiá\nat six o'clock at night and in the morning the church bell rings\nSing Sabiá Sing Sabiá\nat six o'clock at night and in the morning the church bell rings\n\nby the river there is the forest, where you live, the walkway\non the riverbank there is the forest, where the birds live"
+    }
+  ],
+  "media": {
+    "type": "video",
+    "provider": "youtube",
+    "link": "https://www.youtube.com/watch?v=qy8cznaPARY"
+  }
+}

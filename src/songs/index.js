@@ -13,9 +13,15 @@ import song12 from './certo dia na cabana um guerreiro.json';
 import song13 from './o mundo de deus e grande.json';
 import song14 from './minha varanda, contramestre monkey.json';
 import song15 from './eu sou da geracao depois de bimba.json';
+import song16 from './canta sabia canta sabia.json';
+import song17 from './eu nao posso ficar aqui.json';
+import song18 from './pra Iemanja mestre esquilo.json';
+import song19 from './tem que ter mandinga.json';
+import song20 from './ser mestre e dificil mas nao impossivel.json';
 
 const songs = [
-  song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15
+  song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16,
+  song17, song18, song19, song20
 ];
 
 export default songs;
