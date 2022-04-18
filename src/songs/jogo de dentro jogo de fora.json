@@ -1,0 +1,23 @@
+{
+  "name": "Jogo de Dentro Jogo De Fora",
+  "lyrics": "Jogo de dentro, jogo de fora \nJoga bonito no jogo de Angola\nJogo de dentro, jogo de fora\nValha me Deus, minha Nossa Senhora\nJogo de dentro, jogo de fora\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Inside game, outside game\nPlay beautiful in the game of Angola\nInside game, outside game\nProtect me my Lord, Our Lady\nInside game, outside game \n"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=tSt9s_SZEeQ"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "This song is a reminder to play \"inside\" (towards the opponent) as well as \"outside\" (backing away). Frequently a beginner will back away most of the time, but surprising things happen when one goes into an attack"
+    }
+  ]
+}

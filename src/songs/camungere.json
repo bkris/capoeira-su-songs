@@ -1,0 +1,23 @@
+{
+  "name": "Camungerê",
+  "lyrics": "Camugerê como vai como tá\nCamungerê\nÔ como vai vos micê?\nCamungerê\nSe vai bem de saúde\nCamungerê\nPara mim é um prazer\nCamungerê\nVim aqui pra lhe ver\nCamungerê \n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Camungerê, how are you?\nCamungerê\nHow do you do?\nCamungerê\nIf you are healthy\nCamungerê\nThen it’s a pleasure for me\nCamungerê\nI came here to\n"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=HikNWSR8Qko"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "Camungerê is a Brazilian greeting word - often used as capoeira greeting song especially when teachers or students of one group enter the roda of another."
+    }
+  ]
+}

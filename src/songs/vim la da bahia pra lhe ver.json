@@ -1,0 +1,15 @@
+{
+  "name": "Vim lá da Bahia pra lhe ver",
+  "lyrics": "Vim lá da Bahia pra lhe ver\nVim lá da Bahia pra lhe ver\nVim lá da Bahia pra lhe ver\nPra lhe ver, pra lhe ver, pra lhe ver, pra lhe ver\n\n[repeat as coro]\n\nPra lhe ver, pra lhe ver, pra lhe ver, pra lhe ver, pra lhe ver\n\n[Pra lhe ver, pra lhe ver, pra lhe ver, pra lhe ver, pra lhe ver]\n\nTava lá no alto da ribeira,\nNa Bahia que e terra de muito axé,\nMinha mãe e uma grande lavadeira,\nO meu pai usa peneira,\nNa colheita do cafe...eu vim!\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I came from Bahia to see you\nI came from Bahia to see you\nI came from Bahia to see you\nto see you, to see you, to see you\n\n\n\n\n\n\n\n\n\nI was over there by the river\nIn Bahia, which is a land of a lot of axé,\nMy mother is a great washerwoman\nMy fater uses a sieve (szita)\nTo harvest coffee … I came\n"
+    }
+  ],
+  "media": {
+    "type": "video",
+    "provider": "youtube",
+    "link": "https://www.youtube.com/watch?v=zKpFNcrqlDM"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Amanhã é dia santo",
+  "lyrics": "Amanhã é dia santo\n1, 2, 3\nDia de corpo de Deus\n3, 3, 6\nQuem tem roupa vai a missa\n6, 3, 9\nQuem não tem faz como eu\n9, 3, 12\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "tomorrow is holy day\n1, 2, 3\nGod's body day\n3, 3, 6\nWho has clothes goes to mass\n6, 3, 9\nWho doesn't do it like me\n9, 3, 12\n"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=7ulazEnFJLE&"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=jITxp12-mjQ"
+    }
+  ]
+}

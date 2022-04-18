@@ -18,10 +18,38 @@ import song17 from './eu nao posso ficar aqui.json';
 import song18 from './pra Iemanja mestre esquilo.json';
 import song19 from './tem que ter mandinga.json';
 import song20 from './ser mestre e dificil mas nao impossivel.json';
+import song21 from './o sobrado de mamae e debaixo dagua.json';
+import song22 from './ginga caboclo eu quero ver.json';
+import song23 from './sentado num tronco debaixo da sombra do pe de pequi.json';
+import song24 from './toca o tambor que e bom pro nego.json';
+import song25 from './santo antonio eu quero agua.json';
+import song26 from './sai sai catarina.json';
+import song27 from './gunga e meu, gunga e meu.json';
+import song28 from './vem jogar mais eu.json';
+import song29 from './vou dizer ao meu senhor que a manteiga derramou.json';
+import song30 from './sou eu humaita sou eu humaita sou eu.json';
+import song31 from './a mare ta cheia ioio.json';
+import song32 from './o facao bateu embaixo compadre.json';
+import song33 from './beira mar io io beira mar ia ia.json';
+import song34 from './vim la da bahia pra lhe ver.json';
+import song35 from './eu pisei na folha seca.json';
+import song36 from './amanha e dia santo.json';
+import song37 from './luanda e meu boi.json';
+import song38 from './vou rezar pra mamae Iemanja.json';
+import song39 from './vem a pra roda jogar.json';
+import song40 from './deixa navegar meu barco ioio.json';
+import song41 from './quem vem la.json';
+import song42 from './no meu baiao de terreiro.json';
+import song43 from './camungere.json';
+import song44 from './jogo de dentro jogo de fora.json';
+import song45 from './moleque e tu.json';
+import song46 from './berimbau tocou ouvi o tambor bateu desci.json';
+// import song40 from './';
 
 const songs = [
   song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16,
-  song17, song18, song19, song20
+  song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31,
+  song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
 ];
 
 export default songs;

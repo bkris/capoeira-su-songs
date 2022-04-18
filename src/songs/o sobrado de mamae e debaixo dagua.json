@@ -1,0 +1,15 @@
+{
+  "name": "O sobrado de mamâe é debaixo d'água",
+  "lyrics": "O sobrado de mamâe é debaixo d'água\nO sobrado de mamâe é debaixo d'água\nDebaixo d'água por cima da areia\n\nTem ouro, tem prata\nTem diamante que nos alumeia\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Mum's house is underwater\nMum's house is underwater\nUnder the water over the sand\n\nThere's gold, there's silver\nThere's a diamond that lights us up\n"
+    }
+  ],
+  "media": {
+    "type": "video",
+    "provider": "youtube",
+    "link": "https://www.youtube.com/watch?v=bZlmSNrXFWc"
+  }
+}
