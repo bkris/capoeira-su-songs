@@ -56,7 +56,7 @@ export default function Song({
         <pre>{translationText}</pre>
       </Col>
 
-      { hasDescription && <Col lg={12} className="pb-3">{descriptionText}</Col> }
+      { hasDescription && <Col lg={12} className="pb-3" dangerouslySetInnerHTML={{__html: descriptionText}}/> }
 
       <MediaSection media={media}/>
     </Row>
