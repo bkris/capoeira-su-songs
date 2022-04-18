@@ -5,7 +5,7 @@ import {useContext} from "react";
 
 /**
  * @typedef MediaInterface
- * @property {'youtube', 'facebook'} provider
+ * @property {'youtube', 'facebook', 'instagram'} provider
  * @property {'video', 'audio'} type
  * @property {string} link
  */

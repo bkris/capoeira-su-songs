@@ -28,10 +28,17 @@ function FacebookVideo({link}) {
     <Ratio>
       <iframe
         src={fullLink}
-        width="560" height="420" style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder="0"
+        id={urlEncodedLink} title={urlEncodedLink}
+        style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder="0"
         allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"/>
     </Ratio>
   )
+}
+
+function InstagramVideo({link}) {
+  return (
+    <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+  );
 }
 
 function Media({link, provider, type}) {
@@ -45,6 +52,10 @@ function Media({link, provider, type}) {
 
   if (provider === 'facebook') {
     return <FacebookVideo link={link}/>
+  }
+
+  if (provider === 'instagram') {
+    return <InstagramVideo link={link}/>
   }
 
   return NO_MEDIA;
