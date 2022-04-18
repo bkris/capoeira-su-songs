@@ -1,55 +1,8 @@
-import {Row, Col, Accordion} from "react-bootstrap";
-import {isArray, isEmpty, uniq} from "lodash";
-import Media from "./Media";
+import {Row, Col} from "react-bootstrap";
+import {isEmpty, uniq} from "lodash";
 import LanguageSelector from "./LanguageSelector";
 import {useState} from "react";
-
-/**
- * @typedef MediaInterface
- * @property {'youtube', 'facebook'} provider
- * @property {'video', 'audio'} type
- * @property {string} link
- */
-
-/**
- * Renders the media section in songs component
- * @param {MediaInterface, MediaInterface[]} media
- * @returns {JSX.Element}
- * @constructor
- */
-function MediaSection({media}) {
-  if (isEmpty(media)) {
-    return <></>;
-  }
-
-  /**
-   * @param {MediaInterface} m
-   * @param {number} index
-   * @returns {JSX.Element}
-   */
-  const renderItem = (m, index = 0) => (
-    <Accordion.Item eventKey={index.toString()} key={index}>
-      <Accordion.Header>{m.link}</Accordion.Header>
-      <Accordion.Body>
-        <Col md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }}>
-          <Media link={m.link} provider={m.provider} type={m.type}/>
-        </Col>
-      </Accordion.Body>
-    </Accordion.Item>
-  )
-
-  if (isArray(media)) {
-    const items = media.map((m, i) => {
-      return renderItem(m, i);
-    });
-
-    return <Accordion>{items}</Accordion>;
-  }
-
-  const item = renderItem(media);
-
-  return <Accordion>{item}</Accordion>;
-}
+import MediaSection from "./MediaSection";
 
 /**
  * Song component
