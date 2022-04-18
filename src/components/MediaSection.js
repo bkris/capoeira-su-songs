@@ -28,7 +28,7 @@ export default function MediaSection({media}) {
    */
   const renderItem = (m, index = 0) => (
     <Accordion.Item eventKey={index.toString()} key={index}>
-      <Accordion.Header>{m.link}</Accordion.Header>
+      <Accordion.Header style={{overflow: 'hidden'}}>{m.link}</Accordion.Header>
       <Accordion.Body>
         <RenderOnlyExpanded eventKey={index.toString()}>
           <Col md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }}>
