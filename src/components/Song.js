@@ -1,5 +1,5 @@
 import {Row, Col} from "react-bootstrap";
-import {flatMap, isEmpty, isNil, uniq} from "lodash";
+import {isEmpty, isNil, uniq} from "lodash";
 import Media from "./Media";
 import LanguageSelector from "./LanguageSelector";
 import {useState} from "react";
@@ -8,12 +8,8 @@ function Song({id, name, lyrics, translations = [], media, language='eng', descr
   const hasMedia = !isNil(media);
   const hasDescription = !isEmpty(descriptions);
   const translation = translations.find(translation => translation.language === language)
-  const languages = uniq(flatMap([
-    translations.map(_ => _.language),
-    descriptions.map(_ => _.language)
-  ]));
-
   const description = descriptions.find(desc => desc.language === language)
+  const languages = uniq([...translations.map(_ => _.language), ...descriptions.map(_ => _.language)]);
 
   const [translationText, setTranslationText] = useState(translation ? translation.text : "");
   const [descriptionText, setDescriptionText] = useState(description ? description.text : "");

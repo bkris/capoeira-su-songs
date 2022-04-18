@@ -15,7 +15,7 @@ function YoutubeVideo({link}) {
 
   return (
     <Ratio aspectRatio="16x9">
-      <iframe src={embedUrl} allowFullScreen></iframe>
+      <iframe src={embedUrl} id={videoId} title={videoId} allowFullScreen></iframe>
     </Ratio>
   )
 }
