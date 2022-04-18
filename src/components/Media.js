@@ -20,6 +20,20 @@ function YoutubeVideo({link}) {
   )
 }
 
+function FacebookVideo({link}) {
+  const urlEncodedLink = encodeURI(link);
+  const fullLink = `https://www.facebook.com/plugins/video.php?href=${urlEncodedLink}&show_text=0&width=560`
+
+  return (
+    <Ratio>
+      <iframe
+        src={fullLink}
+        width="560" height="420" style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder="0"
+        allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"/>
+    </Ratio>
+  )
+}
+
 function Media({link, provider, type}) {
   if (type !== "video") {
     return NO_MEDIA
@@ -27,6 +41,10 @@ function Media({link, provider, type}) {
 
   if (provider === 'youtube') {
     return <YoutubeVideo link={link}/>
+  }
+
+  if (provider === 'facebook') {
+    return <FacebookVideo link={link}/>
   }
 
   return NO_MEDIA;
