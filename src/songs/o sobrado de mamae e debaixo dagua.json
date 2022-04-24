@@ -7,9 +7,16 @@
       "text": "Mum's house is underwater\nMum's house is underwater\nUnder the water over the sand\n\nThere's gold, there's silver\nThere's a diamond that lights us up\n"
     }
   ],
-  "media": {
-    "type": "video",
-    "provider": "youtube",
-    "link": "https://www.youtube.com/watch?v=bZlmSNrXFWc"
-  }
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=bGUmNE1xeb8"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=fNrYmerQu94"
+    }
+  ]
 }
