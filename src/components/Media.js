@@ -25,7 +25,7 @@ function FacebookVideo({link}) {
   const fullLink = `https://www.facebook.com/plugins/video.php?href=${urlEncodedLink}&show_text=0`
 
   return (
-    <Ratio aspectRatio="16x9">
+    <Ratio>
       <iframe
         src={fullLink}
         id={urlEncodedLink} title={urlEncodedLink}
