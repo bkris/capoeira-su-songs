@@ -7,10 +7,18 @@ import {Row, Col, ListGroup} from "react-bootstrap";
  * @constructor
  */
 function TableOfContent({children , songs = []}) {
+  const setPageTitle = (name) => window.document.title = `${name} - Capoeira Subotica Songs`;
+
   const songList = songs.map((song, index) => {
     const id = `#${song.id}`;
     return (
-      <ListGroup.Item key={index} action href={id} className="d-flex justify-content-between">
+      <ListGroup.Item key={index}
+                      action
+                      href={id}
+                      className="d-flex justify-content-between"
+                      data-song-name={song.name}
+                      data-song-id={id}
+                      onClick={() => setPageTitle(song.name)}>
         <span>{index + 1}. {song.name}</span>{song.type && <span>{song.type}</span>}
       </ListGroup.Item>
     )
