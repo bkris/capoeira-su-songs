@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/capoeira-su-songs/static/css/main.b87b42b3.css",
-    "main.js": "/capoeira-su-songs/static/js/main.6da975fd.js",
+    "main.js": "/capoeira-su-songs/static/js/main.89ab2865.js",
     "static/js/787.7e7f6f71.chunk.js": "/capoeira-su-songs/static/js/787.7e7f6f71.chunk.js",
     "index.html": "/capoeira-su-songs/index.html",
     "main.b87b42b3.css.map": "/capoeira-su-songs/static/css/main.b87b42b3.css.map",
-    "main.6da975fd.js.map": "/capoeira-su-songs/static/js/main.6da975fd.js.map",
+    "main.89ab2865.js.map": "/capoeira-su-songs/static/js/main.89ab2865.js.map",
     "787.7e7f6f71.chunk.js.map": "/capoeira-su-songs/static/js/787.7e7f6f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b87b42b3.css",
-    "static/js/main.6da975fd.js"
+    "static/js/main.89ab2865.js"
   ]
 }
