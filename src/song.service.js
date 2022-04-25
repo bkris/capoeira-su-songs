@@ -1,5 +1,5 @@
 import songs from "./songs";
-import {isEmpty, isNil, sortBy} from "lodash";
+import {sortBy} from "lodash";
 import {slugify} from "voca";
 
 /** @typedef {'eng', 'hun', 'srb'} Language */
@@ -48,19 +48,3 @@ export function getSortedSongs() {
   })
 }
 
-export function setPageTitleBySelectedSong() {
-  const parsedUrl = new URL(window.location.href);
-
-  if (isEmpty(parsedUrl.hash)) {
-    return;
-  }
-
-  const songElement = document.querySelector(`[data-song-id="${parsedUrl.hash}"]`);
-
-  if (isNil(songElement)) {
-    return;
-  }
-
-  const songName = songElement.dataset.songName;
-  window.document.title = `${songName} - Capoeira Subotica Songs`;
-}
