@@ -5,11 +5,14 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
+    <meta name="description"
+      content="Songs we practice at Capoeira Subotica Group"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <meta property="og:image" content="%PUBLIC_URL%/logo192.png">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="pt_BR" />
+    <meta property="og:locale:alternate" content="hu_HU" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -25,6 +28,13 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Capoeira Songs Subotica</title>
+    <script type="application/javascript">
+      const parsedUrl = new URL(window.location.href);
+      if (parsedUrl.hash) {
+        const description = parsedUrl.hash.replace('#', '').replaceAll('-', ' ');
+        document.head.querySelector('meta[name="description"]').content = `${description} - Capoeira Subotica Songs`;
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
