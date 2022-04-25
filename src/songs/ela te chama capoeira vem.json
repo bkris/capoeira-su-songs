@@ -1,0 +1,31 @@
+{
+  "name": "Ela te chama, Ela te quer - Capoeira vem",
+  "lyrics": "Ela te chama _\nEla te quer _ _\nA capoeira encanta _ _\nE luta de bater com pé\nCapoeira vem\n\nO, meu mestre mandou chamar\nCapoeira vem\n\nO lae la la e la\nCapoeira vem\n\nO-o-o\nCapoeira vem\n\nO, capoeira vem jogar\nCapoeira vem\n\nO, Capoeira vai rolar\nCapoeira vem\n\nEh, Me chamou pra vadiar\nCapoeira vem\n\nEh, Bate palma pra animar\nCapoeira vem\n\nEh, Me mandou pra vadiar\nCapoeira vem\n\nO, Meu mestre mandou cantar\nCapoeira vem\n\nEh, Quero ver tu vadiar\nCapoeira vem\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "she calls you\nShe wants you _ _\nCapoeira enchants _ _\nAnd fight to stamp with foot\ncapoeira comes\n\nOh, my master sent for\ncapoeira comes\n\nO la la la e la\ncapoeira comes\n\no-o-o\ncapoeira comes\n\nO, capoeira comes to play\ncapoeira comes\n\nOh, Capoeira will roll\ncapoeira comes\n\nEh, called me to hang around\ncapoeira comes\n\nEh, clap your hands to cheer up\ncapoeira comes\n\nEh, sent me to hang around\ncapoeira comes\n\nO, my master sent to sing\ncapoeira comes\n\nEh, I want to see you loaf\ncapoeira comes"
+    },
+    {
+      "language": "hun",
+      "text": "ő hív téged\nŐ akar téged __\nCapoeira elvarázsol _ _\nÉs küzdj a lábbal bélyegzésért\ncapoeira jön\n\nÓ, a gazdám küldött érte\ncapoeira jön\n\nO la la la e la\ncapoeira jön\n\no-o-o\ncapoeira jön\n\nÓ, capoeira jön játszani\ncapoeira jön\n\nÓ, Capoeira gurul\ncapoeira jön\n\nEh, felhívott, hogy lógjam\ncapoeira jön\n\nEh, tapsolj, hogy felvidíts\ncapoeira jön\n\nEh, elküldtem ácsorogni\ncapoeira jön\n\nÓ, a mesterem azt mondta, hogy énekeljek\ncapoeira jön\n\nEh, látni akarlak cipóban\ncapoeira jön"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=5CqXbPH7MJ8"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=kpkPS8F-ePA"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=u7X3Uc0gYns"
+    }
+  ]
+}
