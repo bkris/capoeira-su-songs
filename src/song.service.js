@@ -48,14 +48,22 @@ export function getSortedSongs() {
   })
 }
 
-export function setPageTitleBySelectedSong() {
+/**
+ * Returns the element of selected song appears in url hash section
+ * @return {undefined, HTMLElement}
+ */
+export function getSongElementByPageUrl() {
   const parsedUrl = new URL(window.location.href);
 
   if (isEmpty(parsedUrl.hash)) {
     return;
   }
 
-  const songElement = document.querySelector(`[data-song-id="${parsedUrl.hash}"]`);
+  return document.querySelector(`[data-song-id="${parsedUrl.hash}"]`);
+}
+
+export function setPageTitleBySelectedSong(songElement) {
+  songElement = songElement || getSongElementByPageUrl();
 
   if (isNil(songElement)) {
     return;
@@ -63,4 +71,12 @@ export function setPageTitleBySelectedSong() {
 
   const songName = songElement.dataset.songName;
   window.document.title = `${songName} - Capoeira Subotica Songs`;
+}
+
+export function scrollToSection(songElement) {
+  if (isNil(songElement)) {
+    return;
+  }
+
+  songElement.click();
 }

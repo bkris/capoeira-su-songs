@@ -5,7 +5,7 @@ import TableOfContent from "./components/TableOfContent";
 import SongList from "./components/SongList";
 import SearchHeader from "./components/SearchHeader";
 import {useEffect, useState} from "react";
-import {getSortedSongs, setPageTitleBySelectedSong} from "./song.service";
+import {getSongElementByPageUrl, getSortedSongs, scrollToSection, setPageTitleBySelectedSong} from "./song.service";
 import {isEmpty} from "lodash";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -20,9 +20,10 @@ function App() {
   };
 
   useEffect(() => {
-      setPageTitleBySelectedSong();
-    },
-    []);
+      const songElement = getSongElementByPageUrl();
+      setPageTitleBySelectedSong(songElement);
+      scrollToSection(songElement);
+    }, []);
 
   return (
     <>
