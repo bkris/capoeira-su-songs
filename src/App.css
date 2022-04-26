@@ -8,3 +8,9 @@ pre {
 .header {
     background-color: white;
 }
+
+.logo {
+    display: block;
+    width: 192px;
+    height: 192px;
+}
