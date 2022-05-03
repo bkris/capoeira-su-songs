@@ -2,10 +2,11 @@ import Song from "./Song";
 
 /**
  * @param {SongInterface[]} songs
+ * @param {function} onFullScreen
  * @returns {JSX.Element}
  * @constructor
  */
-function SongList({songs = []}) {
+function SongList({songs = [], onFullScreen}) {
   const songList = songs.map(song => (
     <Song key={song.id}
           id={song.id}
@@ -14,6 +15,7 @@ function SongList({songs = []}) {
           translations={song.translations}
           media={song.media}
           descriptions={song.descriptions}
+          onFullScreen={onFullScreen}
     ></Song>
   ))
 

@@ -14,3 +14,7 @@ pre {
     width: 192px;
     height: 192px;
 }
+
+.pre-line {
+    white-space: pre-line;
+}

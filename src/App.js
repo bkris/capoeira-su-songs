@@ -8,10 +8,12 @@ import {useEffect, useState} from "react";
 import {getSongElementByPageUrl, getSortedSongs, scrollToSection, setPageTitleBySelectedSong} from "./song.service";
 import {isEmpty} from "lodash";
 import ScrollToTop from "./components/ScrollToTop";
+import Preview from "./components/Preview";
 
 function App() {
   const allSongs = getSortedSongs();
   const [songs, setSongs] = useState(allSongs);
+  const [selectedSong, setSelectedSong] = useState(null);
 
   let handleSearch = (e) => {
     const lowerCase = e.target.value.toLowerCase();
@@ -25,6 +27,14 @@ function App() {
       scrollToSection(songElement);
     }, []);
 
+  const onFullscreenClicked = (song) => {
+    setSelectedSong(song);
+  }
+
+  const onFullscreenClosed = () => {
+    setSelectedSong(null);
+  }
+
   return (
     <>
       <Container fluid="lg">
@@ -32,8 +42,9 @@ function App() {
         <TableOfContent songs={songs}>
           <SearchHeader onSearch={handleSearch}/>
         </TableOfContent>
-        <SongList songs={songs}/>
+        <SongList songs={songs} onFullScreen={onFullscreenClicked}/>
       </Container>
+      {selectedSong && <Preview selectedSong={selectedSong} onHide={onFullscreenClosed}/>}
       <ScrollToTop/>
     </>
   );

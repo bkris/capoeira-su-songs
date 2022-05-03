@@ -1,8 +1,9 @@
-import {Row, Col} from "react-bootstrap";
+import {Row, Col, Button} from "react-bootstrap";
 import {isEmpty, uniq} from "lodash";
 import LanguageSelector from "./LanguageSelector";
 import {useState} from "react";
 import MediaSection from "./MediaSection";
+import {AiOutlineFullscreen} from "react-icons/ai";
 
 /**
  * Song component
@@ -13,6 +14,7 @@ import MediaSection from "./MediaSection";
  * @param {Media, Media[]} media
  * @param {Language} language
  * @param {Translated[]} [descriptions]
+ * @param onFullScreen
  * @returns {JSX.Element}
  * @constructor
  */
@@ -23,7 +25,8 @@ export default function Song({
                 translations = [],
                 media,
                 language='eng',
-                descriptions=[]
+                descriptions=[],
+                onFullScreen
 }) {
   const hasDescription = !isEmpty(descriptions);
   const translation = translations.find(translation => translation.language === language)
@@ -46,7 +49,11 @@ export default function Song({
       <Col lg={12} className={'pb-3'}>
         <h4 className="d-flex justify-content-between border-bottom">
           <span>{name}</span>
-          <LanguageSelector id={id} languages={languages} onLanguageChange={onLanguageChange}/>
+          <div>
+            <Button size="sm" className="me-2 mb-2" onClick={() => onFullScreen({id, name, lyrics})}
+                    variant="outline-dark" ><AiOutlineFullscreen/></Button>
+            <LanguageSelector id={id} languages={languages} onLanguageChange={onLanguageChange}/>
+          </div>
         </h4>
       </Col>
       <Col lg={6}>
