@@ -12,6 +12,7 @@ function SongList({songs = [], onFullScreen}) {
           id={song.id}
           name={song.name}
           lyrics={song.lyrics}
+          type={song.type}
           translations={song.translations}
           media={song.media}
           descriptions={song.descriptions}

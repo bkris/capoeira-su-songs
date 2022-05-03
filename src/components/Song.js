@@ -10,6 +10,7 @@ import {AiOutlineFullscreen} from "react-icons/ai";
  * @param {string} id
  * @param {string} name
  * @param {string} lyrics
+ * @param {SongType} type
  * @param {Translated[]} translations
  * @param {Media, Media[]} media
  * @param {Language} language
@@ -22,6 +23,7 @@ export default function Song({
                 id,
                 name,
                 lyrics,
+                type,
                 translations = [],
                 media,
                 language='eng',
@@ -48,7 +50,7 @@ export default function Song({
     <Row className={'pb-5'} id={id}>
       <Col lg={12} className={'pb-3'}>
         <h4 className="d-flex justify-content-between border-bottom">
-          <span>{name}</span>
+          <span>{name} &nbsp; {type && <span className="badge bg-secondary">{type}</span>}</span>
           <div>
             <Button size="sm" className="me-2 mb-2" onClick={() => onFullScreen({id, name, lyrics})}
                     variant="outline-dark" ><AiOutlineFullscreen/></Button>
