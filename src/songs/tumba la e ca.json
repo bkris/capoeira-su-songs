@@ -1,0 +1,19 @@
+{
+  "id": 49,
+  "name": "Tumba la é ca",
+  "lyrics": "Eu vi a luta, eu tava la\nEu vi a luta, eu tava la\nDois guerreiros se pegando dentro do canavial\n\nEu vi a luta, eu tava la\nEu vi a luta, eu tava la\nDois guerreiros se pegando dentro do canavial\n\nLutava Maculelê na terra do Manganga\nUm gritava para o outro\nTumba ê caboclo\nTumba la é ca\nE tumba ê guerreiro\nTumba la é ca\nE tumba ê Popo\nTumba la é ca\nE nao me deixe so\nTumba la é ca\nTumba e caboclo\nTumba la é ca\nE tumba ê santamar\nTumba la é ca\nE tumba ê Popo\nTumba la é ca\nE nao me deixe so\nTumba la é ca",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I saw the fight, I was there\nI saw the fight, I was there\nTwo warriors fighting beneath the reeds\n\nI saw the fight, I was there\nI saw the fight, I was there\nTwo warriors fighting beneath the reeds\n\nThey fought maculele in the land of Manganga\nOne yelled to the other\nthe conga (rhythm) is of caboclo\nBeat the conga there and here\nthe conga is of warriors\nBeat the conga there and here\nThe conga is of Popó\nBeat the conga there and here\nDon't leave me alone\nBeat the conga there and here\nthe conga (rhythm) is of caboclo\nBeat the conga there and here\n\nBeat the conga there and here\nThe conga is of Popó\nBeat the conga there and here\nDon't leave me alone\nBeat the conga there and here"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=FsKxp5hR32g"
+    }
+  ],
+  "type": "maculele"
+}

@@ -1,0 +1,19 @@
+{
+  "id": 48,
+  "name": "Oh Areia oh areia",
+  "lyrics": "Oh areia, oh areia\nOh areia, oh areia\nAreia do rio\nAreia\nAreia do mar\nAreia\nOh saia do meu caminho\nAreia\nDeixa eu passar\nAreia\nEu quero passar\nAreia\nsou pequeninho\nAreia\nFilho de Oxalá\nAreia\nCapoeira Angola\nAreia\nE conforme a razão\nAreia\nDa licença, moça,\nAreia\nBerimbau quebrou\nAreia\nBerimbau tocou\nAreia\nEu vou vadiar\nAreia\nVá pra o terreiro\nAreia\nAprender a lição\nAreia",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Oh sand, oh sand\nOh sand, oh sand\nRiver sand\nSand\nSea sand\nSand\nOh get out of my way\nSand\nLet me pass\nSand\nI want to pass\nSand\nI'm little\nSand\nSon of Oxalá\nSand\nCapoeira Angola\nSand\nAnd according to reason\nSand\nExcuse me, girl\nSand\nBerimbau broke\nSand\nBerimbau rang\nSand\nI'm going to hang out\nSand\nGo to the terreiro\nSand\nLearn the lesson\nSand"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=pk1nuRrsg4k"
+    }
+  ],
+  "type": "corridos"
+}
