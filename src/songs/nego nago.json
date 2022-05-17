@@ -1,14 +1,14 @@
 {
   "name": "Nego nagô",
-  "lyrics": "Nego nagô, quando morre, vai na tumba de banguê.\nOs parentes vão dizendo, urubu tem que comer.\nAqui babá, a cangerê, nego nagô tem catinga de Sariguê.\nAqui babá, a cangerê, nego nagô tem catinga de Sariguê",
+  "lyrics": "Nego nagô, quando morre,\n vai na tumba de banguê.\nOs parentes vão dizendo,\n urubu tem que comer.\nAqui babá, a cangerê,\n nego nagô tem catinga de Sariguê.\nAqui babá, a cangerê,\n nego nagô tem catinga de Sariguê",
   "translations": [
     {
       "language": "eng",
-      "text": "When Nego nagô dies, go to the tomb of banguê (stretcher).\nThe relatives are saying, vulture[s] needs to eat.\nHere nanny, the cangerê, nego nagô, ballad of the skunk\nHere nanny, the cangerê, nego nagô, ballad of the skunk"
+      "text": "When Nego nagô dies,\n go to the tomb of banguê (stretcher).\nThe relatives are saying,\n vulture[s] needs to eat.\nHere nanny, the cangerê,\n nego nagô, ballad of the skunk\nHere nanny, the cangerê,\n nego nagô, ballad of the skunk"
     },
     {
       "language": "hun",
-      "text": "Amikor Nego nagô meghal, menj Banguê (hordágy) sírjához.\nA rokonok azt mondják, a keselyűnek ennie kell.\nItt dada, a cangerê, nego nagô, ballada a bűzös borzról\nItt dada, a cangerê, nego nagô, ballada a bűzös borzról"
+      "text": "Amikor Nego nagô meghal,\n menj Banguê (hordágy) sírjához.\nA rokonok azt mondják,\n a keselyűnek ennie kell.\nItt dada, a cangerê, nego nagô,\n ballada a bűzös borzról\nItt dada, a cangerê, nego nagô,\n ballada a bűzös borzról"
     }
   ],
   "media": [
@@ -31,8 +31,11 @@
   "descriptions": [
     {
       "language": "eng",
-      "text": "Author: Mestre Ananias\nCangerê – the meeting of peple for a ritual.\nSaringuê – A name for a skunk commonly used in the North-East of Brasil."
+      "text": "Author: Mestre Ananias\nCangerê – the meeting of pepole for a ritual.\nSaringuê – A name for a skunk commonly used in the North-East of Brasil."
+    },
+    {
+      "language": "hun",
+      "text": "Szerző: Mestre Ananias\nCangerê – emberek találkozása egy rituáléra.\nSaringuê – Bűzös borz, Brazília északkeleti részén általánosan használt neve."
     }
-  ],
-  "type": "corridos"
+  ]
 }
