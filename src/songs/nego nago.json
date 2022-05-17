@@ -1,0 +1,38 @@
+{
+  "name": "Nego nagô",
+  "lyrics": "Nego nagô, quando morre, vai na tumba de banguê.\nOs parentes vão dizendo, urubu tem que comer.\nAqui babá, a cangerê, nego nagô tem catinga de Sariguê.\nAqui babá, a cangerê, nego nagô tem catinga de Sariguê",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "When Nego nagô dies, go to the tomb of banguê (stretcher).\nThe relatives are saying, vulture[s] needs to eat.\nHere nanny, the cangerê, nego nagô, ballad of the skunk\nHere nanny, the cangerê, nego nagô, ballad of the skunk"
+    },
+    {
+      "language": "hun",
+      "text": "Amikor Nego nagô meghal, menj Banguê (hordágy) sírjához.\nA rokonok azt mondják, a keselyűnek ennie kell.\nItt dada, a cangerê, nego nagô, ballada a bűzös borzról\nItt dada, a cangerê, nego nagô, ballada a bűzös borzról"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=Fo5RZli8xlk"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=3ZGXD3Zaktc"
+    },
+    {
+      "type": "video",
+      "provider": "instagram",
+      "link": "https://www.instagram.com/p/CdoWt5qolt2/"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "Author: Mestre Ananias\nCangerê – the meeting of peple for a ritual.\nSaringuê – A name for a skunk commonly used in the North-East of Brasil."
+    }
+  ],
+  "type": "corridos"
+}

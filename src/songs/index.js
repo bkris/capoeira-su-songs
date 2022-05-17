@@ -48,13 +48,14 @@ import song47 from './ela te chama capoeira vem.json';
 import song48 from './oh areia oh areia.json';
 import song49 from './tumba la e ca.json';
 import song50 from './e jogo praticado na terra de sao salvador.json';
+import song51 from './nego nago.json';
 // import song40 from './';
 
 const songs = [
   song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16,
   song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31,
   song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
-  song47, song48, song49, song50,
+  song47, song48, song49, song50, song51
 ];
 
 export default songs;
