@@ -1,4 +1,5 @@
 {
+  "id": 2,
   "name": "Capoeira pra me é uma só",
   "lyrics":"Capoeira pra me é uma só\nQue contagia muita gente\nNo toque do berimbau\nQue a luta fica diferente\n\nCoro\n\nMeu mestre falou pra mim\nPra não perder o fundamento\nCapoeira Joga em cima\nJoga em baixo E joga dentro\n\nMenino preste a atenção\nEscutar que eu falar\nQuando eu der a volta ao mundo\nDeixe o mundo te ensinar",
   "translations": [
@@ -7,5 +8,16 @@
       "text": "Capoeira for me is only one\nThat affects many people\nIn the rhythm of the berimbau\nThe fight is different\n\n\n\nMy master always told me\nTo not forget the basics\nA capoeirista plays high up\nPlays low, and plays close\n\nBoy pay attention\nListen to what I say\nWhen I go around the world\nLet the world teach you"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=x_1d2z2imwY"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=XSQEiZqYMTI"
+    }
+  ]
 }
