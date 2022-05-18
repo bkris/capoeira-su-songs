@@ -58,11 +58,11 @@ export default function Song({
           </div>
         </h4>
       </Col>
-      <Col lg={6}>
-        <pre>{lyrics}</pre>
+      <Col lg={6} className="pre-line pb-3">
+        <div className="p-3 bg-light" dangerouslySetInnerHTML={{__html: lyrics}}/>
       </Col>
-      <Col lg={6}>
-        <pre>{translationText}</pre>
+      <Col lg={6} className="pre-line pb-3">
+        <div className="p-3 bg-light" dangerouslySetInnerHTML={{__html: translationText}}/>
       </Col>
 
       { hasDescription && <Col lg={12} className="pb-3 pre-line" dangerouslySetInnerHTML={{__html: descriptionText}}/> }
