@@ -8,7 +8,13 @@
       "text": "Come and play with me\nCome and play with me, my bro\n\nCome and play with me\nCome and play with me, my bro\n\nCome and play with me\nCome and play with me, my brother\n\nCome and play with me\nCome and play with me, my bro\n\nCome and play with me\nCome and play with me, my brother"
     }
   ],
-  "media": null,
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=IxQbjItACOk"
+    }
+  ],
   "descriptions": [
     {
       "language": "eng",

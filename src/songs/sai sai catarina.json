@@ -8,5 +8,21 @@
       "text": "Come out, come out Catarina\nCome out of the sea, come see Idalina\nCome out, come out Catarina\nCatarina, come see\nCome out, come out Catarina\nCome out of the sea, come out of the sea\nCome out, come out Catarina\nOh Caterina, my love\nCome out, come out Catarina"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=wyyYAA-6EFo"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=uGQ_Zl-eI7k"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://youtu.be/i8bAlZ-upsg?t=73"
+    }
+  ]
 }

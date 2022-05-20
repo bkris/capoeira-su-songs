@@ -1,0 +1,38 @@
+{
+  "id": 53,
+  "name": "Cajuê (Vou mandar leco)",
+  "lyrics": "Vou mandar leco cajuê\nVou mandar loiá\nVou mandar leco cajuê\nVou mandar loiá\n\nVou mandar leco cajuê\nVou mandar loiá\nVou mandar leco cajuê\nVou mandar loiá\n\nVou mandar lecô\n\nCajuê\n\nVou mandar loiá\n\nCajuê\n\nVou mandar lecô\n\nCajuê\n\nVou mandar loiá\n\nCajuê",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I’ll send leco cajuê\nI’ll send loiá\nI’ll send leco cajuê\nI’ll send loiá\n\nI’ll send leco cajuê\nI’ll send loiá\nI’ll send leco cajuê\nI’ll send loiá\n\nVou send lecô\n\nCashew\n\nI’ll send loiá\n\nCashew\n\nI’ll send lecô\n\nCashew\n\nI’ll send loiá\n\nCashew"
+    },
+    {
+      "language": "hun",
+      "text": "kesudió lecót küldök\nküldöm loiát\nLeco kesudiót küldök\nküldöm loiát\n\nLeco kesudiót küldök\nküldöm loiát\nkesudió lecót küldök\nküldöm loiát\n\nKüldök egy lecôt\n\nkesudió\n\nküldöm loiát\n\nkesudió\n\nKüldök egy lecôt\n\nkesudió\n\nküldöm loiát\n\nkesudió"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=mv8Jr-BHGzg"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=t_pbTw9MpEE"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=20efGXIST84"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=hhlkJ6pEzD0"
+    }
+  ],
+  "type": "corridos"
+}

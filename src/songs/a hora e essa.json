@@ -1,0 +1,43 @@
+{
+  "id": 54,
+  "name": "A hora é essa",
+  "lyrics": "A hora é essa\nA hora é essa\nBerimbau tocou na Capoeira\nBerimbau tocou eu vou jogar",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "It is time\nIt is time\nBerimbau played in the Capoeira\nBerimbau played, I’m going to play"
+    },
+    {
+      "language": "hun",
+      "text": "itt az idő\nitt az idő\nBerimbau a Capoeirában játszott\nBerimbau játszotta a Játszani fogok"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=LKrNJupmVNM"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=xm_PgvurdaM"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=WgT001i3eUc"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "A hora é essa literally means “The hour is that”.\n\nYou often can’t translate from Portuguese word for word. In English we’d probably say:\n\nIt is time / The time has come / The time is now"
+    },
+    {
+      "language": "hun",
+      "text": "A hora é essa szó szerint azt jelenti: „Az óra az.\n\nGyakran nem lehet szóról szóra fordítani portugálról. Magyarul valószínűleg ezt mondanánk:\n\nItt az idő / Eljött az idő / Most van itt az idő"
+    }
+  ],
+  "type": "corridos"
+}

@@ -8,5 +8,16 @@
       "text": "Gunga is mine, gunga is mine\nGunga is mine, is mine, is mine\n\nGunga is mine, gunga is mine\n\nGunga is mine, I can not sell it\n\nGunga is mine, gunga is mine\n\nGunga is mine, it was my father who gave it to me\n\nGunga is mine, gunga is mine\n\nGunga is mine, it was my mestre who gave it to me\n\nGunga is mine, gunga is mine\n\nGunga is mine, gunga is mine\n"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=jWT9S7c0P2g"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ECehbUJd5xo"
+    }
+  ]
 }

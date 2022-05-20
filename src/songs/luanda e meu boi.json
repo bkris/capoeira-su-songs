@@ -8,5 +8,16 @@
       "text": "Luanda and my ox,\nLuanda and for\nTereza sings while sitting\nHi Marina samba standing\nThere on the pier of Bahia\nOn the Capoeira wheel\nthere's no lele there's nothing\nHi, there is no lele or lala\n\n\nhi lae lae la\nhi lele\nhi lae lae la\nhi lele\n"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=duDsflh0thM"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=WcDgaRrDiao"
+    }
+  ]
 }

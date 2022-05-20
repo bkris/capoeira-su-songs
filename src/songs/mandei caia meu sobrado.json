@@ -1,12 +1,32 @@
 {
   "id": 9,
   "name": "Mandei caiá meu sobrado",
-  "lyrics":"Mandei caiá meu sobrado\nMandei, mandei, mandei\nMandei caiá de amarelo\nCaiei, caiei, caiei\n",
+  "lyrics":"Meus amigos que são verdadeiros\nVocês é um exemplo pra mim\nEm vocês eu hoje me espelho\nEm nossa amizade sem fim\n\nMandei caiá meu sobrado\nMandei, mandei, mandei\nMandei caiá de amarelo\nCaiei, caiei, caiei\n\nAgradeço a Capoeira\nDo fundo do meu coração\nPra vocês todos os presentes\nEu dedico essa canção\n\nMandei caiá meu sobrado\nMandei, mandei, mandei\nMandei caiá de amarelo\nCaiei, caiei, caiei\n\nMinha mãe sempre me disse\nMeu filho tome muito cuidado\nJogue o jogo da vida\nMais nunca esqueça seu passado\n\nMandei caiá meu sobrado\nMandei, mandei, mandei\nMandei caiá de amarelo\nCaiei, caiei, caiei\n\nMeu pai grande amigo guerreiro\nPartiu tinha pouca idade\nÔ pai seja onde estiver\nSaiba que eu tenho saudades\n\nMandei caiá meu sobrado\nMandei, mandei, mandei\nMandei caiá de amarelo\nCaiei, caiei, caiei",
   "translations": [
     {
       "language": "eng",
-      "text": "I sent my house over\nI sent, I sent, I sent\nI sent a yellow hat\nI fell, I fell, I fell\n"
+      "text": "my friends who are true\nyou are an example for me\nI look up to you today\nIn our endless friendship\n\nI ordered my house to fall\nI sent, I sent, I sent\nI sent it to fall in yellow\nI fell, I fell, I fell\n\nI thank Capoeira\nFrom the bottom of my heart\nFor you all the gifts\nI dedicate this song\n\nI ordered my house to fall\nI sent, I sent, I sent\nI sent it to fall in yellow\nI fell, I fell, I fell\n\nmy mother always told me\nMy son be very careful\nplay the game of life\nBut never forget your past\n\nI ordered my house to fall\nI sent, I sent, I sent\nI sent it to fall in yellow\nI fell, I fell, I fell\n\nmy father great warrior friend\nleft at a young age\noh father wherever you are\nKnow that I miss you\n\nI ordered my house to fall\nI sent, I sent, I sent\nI sent it to fall in yellow\nI fell, I fell, I fell"
+    },
+    {
+      "language": "hun",
+      "text": "barátaim, akik igazak\npélda vagy nekem\nMa felnézek rád\nVégtelen barátságunkban\n\nMegparancsoltam, hogy dőljön le a házam\nKüldtem, küldtem, küldtem\nElküldtem, hogy sárgán essen\nElestem, elestem, elestem\n\nKöszönöm Capoeirának\nTiszta szívből\nNeked minden ajándék\nDedikálom ezt a dalt\n\nMegparancsoltam, hogy dőljön le a házam\nKüldtem, küldtem, küldtem\nElküldtem, hogy sárgára essen\nElestem, elestem, elestem\n\nanyám mindig azt mondta nekem\nA fiam legyen nagyon óvatos\njátszani az élet játékát\nDe soha ne felejtsd el a múltadat\n\nMegparancsoltam, hogy dőljön le a házam\nKüldtem, küldtem, küldtem\nElküldtem, hogy sárgán essen\nElestem, elestem, elestem\n\napám nagy harcos barátom\nfiatalon elhagyták\nó, apa, bárhol is vagy\nTudd, hogy hiányzol\n\nMegparancsoltam, hogy dőljön le a házam\nKüldtem, küldtem, küldtem\nElküldtem, hogy sárgára essen\nElestem, elestem, elestem"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=v6xccIyhcUU"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=fNCKUz_kaf0"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=iEidkmY1npU"
+    }
+  ]
 }

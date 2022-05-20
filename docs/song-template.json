@@ -1,4 +1,5 @@
 {
+  "id": 1,
   "name": "",
   "lyrics": "",
   "translations": [
@@ -12,6 +13,12 @@
       "type": "video",
       "provider": "youtube",
       "link": ""
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": ""
     }
   ],
   "type": "corridos"

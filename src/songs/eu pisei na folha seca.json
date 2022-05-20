@@ -8,5 +8,21 @@
       "text": "I stepped on the dry leaf\nI saw shue shua (levelek csorgese)\n\n\n\n\n\n\n\n\nBut those who can’t use manginga (magic)\nDon’t carry an amulet\n"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=o7L7eJfB0wk"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=I_YmV4dUac4"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=8IO3cik1xhY"
+    }
+  ]
 }

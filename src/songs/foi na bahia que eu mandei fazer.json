@@ -8,5 +8,16 @@
       "text": "It was in Bahia that I had to do\n\nIt was in Bahia that I had to prepare\nMy father, my father, my father.\nMy pussy to protect me\n"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=fD4IkHDrZX0"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=V-G70aJVZ-8"
+    }
+  ]
 }

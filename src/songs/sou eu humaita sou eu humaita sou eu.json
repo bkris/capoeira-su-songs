@@ -8,5 +8,11 @@
       "text": "I am Humaitá,  I am Humaitá, I am"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=E7qEAHAJOQQ"
+    }
+  ]
 }

@@ -8,5 +8,16 @@
       "text": "I will tell my boss, that the butter spilled\nI will tell my boss, that the butter spilled\nThe butter isn’t mine, it’s the butter of the land owner\nI will tell my boss, that the butter spilled\nThe butter belongs to the boss, it fell on the floor and spilled\nI will tell my boss, that the butter spilled\n"
     }
   ],
-  "media": null
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=EBhnJh-L22w"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://youtu.be/7F7cDDm1A-s?t=28"
+    }
+  ]
 }
