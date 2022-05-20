@@ -51,7 +51,7 @@ import song50 from './e jogo praticado na terra de sao salvador.json';
 import song51 from './nego nago.json';
 import song52 from './vim no balanco do mar.json';
 import song53 from './cajue - Vou mandar leco.json';
-import song54 from './';
+import song54 from './a hora e essa.json';
 // import song50 from './';
 
 const songs = [
