@@ -52,13 +52,14 @@ import song51 from './nego nago.json';
 import song52 from './vim no balanco do mar.json';
 import song53 from './cajue - Vou mandar leco.json';
 import song54 from './a hora e essa.json';
+import song55 from './angola chama seu povo.json';
 // import song50 from './';
 
 const songs = [
   song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16,
   song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31,
   song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
-  song47, song48, song49, song50, song51, song52, song53, song54
+  song47, song48, song49, song50, song51, song52, song53, song54, song55
 ];
 
 export default songs;
