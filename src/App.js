@@ -9,6 +9,7 @@ import {getSongElementByPageUrl, getSortedSongs, scrollToSection, setPageTitleBy
 import {isEmpty} from "lodash";
 import ScrollToTop from "./components/ScrollToTop";
 import Preview from "./components/Preview";
+import SortOrder from "./components/SortOrder";
 
 function App() {
   const allSongs = getSortedSongs();
@@ -35,12 +36,23 @@ function App() {
     setSelectedSong(null);
   }
 
+  const onSortByNameClicked = () => {
+    const allSongs = getSortedSongs('name');
+    setSongs(allSongs)
+  }
+
+  const onSortByDateClicked = () => {
+    const allSongs = getSortedSongs('date');
+    setSongs(allSongs)
+  }
+
   return (
     <>
       <Container fluid="lg">
         <Header />
         <TableOfContent songs={songs}>
           <SearchHeader onSearch={handleSearch}/>
+          <SortOrder onSortByName={onSortByNameClicked} onSortByDate={onSortByDateClicked}/>
         </TableOfContent>
         <SongList songs={songs} onFullScreen={onFullscreenClicked}/>
       </Container>

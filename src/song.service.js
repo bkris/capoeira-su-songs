@@ -1,5 +1,5 @@
 import songs from "./songs";
-import {isEmpty, isNil, sortBy} from "lodash";
+import {deburr, isEmpty, isNil, sortBy} from "lodash";
 import {slugify} from "voca";
 
 /** @typedef {'eng', 'hun', 'srb'} Language */
@@ -36,9 +36,14 @@ const getId = (name) => `${slugify(name)}`;
 /**
  * @returns SongInterface[]
  */
-export function getSortedSongs() {
+export function getSortedSongs(sort = 'name') {
   /** @type {SongInterface[]} */
-  const rawSongs = sortBy(songs, 'name');
+  const rawSongs = sortBy(songs, (song) => {
+    if (sort === 'name') {
+      return deburr(song.name)
+    }
+    return song.id;
+  });
 
   return rawSongs.map(song => {
     return {
