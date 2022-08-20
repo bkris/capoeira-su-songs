@@ -1,0 +1,38 @@
+{
+  "id": 57,
+  "name": "Dono das três estrelas (Vou lá pra beira do mar)",
+  "lyrics": "Vou lá pra beira do mar\nBerimbau tocou\nChamou pra jogar\nVou lá pra beira do mar\nBerimbau tocou\nChamou pra jogar\n\nBerimbau porque me chama\nPorque mandou me chamar\nQuando escuto o seu chamado\nEu vou pra qualquer lugar\n\nVou lá pra beira do mar\nBerimbau tocou\nChamou pra jogar\n\nBerimbau tocou na roda\nFez meu corpo arrepiar\nSó quem joga capoeira\nSabe a vontade que dá\n\nVou lá pra beira do mar\nBerimbau tocou\nChamou pra jogar\n\nAi meu Deus se eu pudesse\nSer dono das tres Marias\nDava uma a Mestre Bimba\nA outra a Mestre Pastinha\nE a estrela que sobrasse\nEu guardava pra ser minha\n\nVou lá pra beira do mar\nBerimbau tocou\nChamou pra jogar",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I’m going to the seaside\nBerimbau played\nCalled to play\nI’m going to the seaside\nBerimbau played\nCalled to play\n\nBerimbau why you calls me\nWhy you sent to call me\nWhen I hear your call\nI’ll go anywhere\n\nI’m going to the seaside\nBerimbau played\nCalled to play\n\nBerimbau played in the roda\nIt made my body shiver\nOnly those who play Capoeira\nKnow the will that gives\n\nI’m going to the seaside\nBerimbau played\nCalled to play\n\nOh my God if I could\nOwning the three Marias\nGave one to Mestre Bimba\nThe other one to Pastinha\nAnd the star that left\nI kept to be mine\n\nI’m going to the seaside\nBerimbau played\nCalled to play"
+    },
+    {
+      "language": "hun",
+      "text": "megyek a tengerpartra\nberimbau játszott\njátszani hívott\nmegyek a tengerpartra\nberimbau játszott\njátszani hívott\n\nBerimbau, miért hívsz?\nMiért hívtál\nAmikor meghallom a hívását\nbárhova megyek\n\nmegyek a tengerpartra\nberimbau játszott\njátszani hívott\n\nBerimbau a rodán játszott\nmegborzongott a testem\nCsak azok, akik capoeirát játszanak\nIsmered-e az akaratot, amely ad\n\nmegyek a tengerpartra\nberimbau játszott\njátszani hívott\n\nistenem ha tehetném\nA három Mária tulajdonosa\nOdaadtam egyet Mestre Bimbának\nA másik Mestre Pastinha\nÉs a csillag, ami megmaradt\nMegtartottam, hogy az enyém legyen\n\nmegyek a tengerpartra\nberimbau játszott\njátszani hívott"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ywjJLTafjHg"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=BVDyJtmQmc4"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ie0o61oN7hs"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=5pchVEqSwBI"
+    }
+  ],
+  "type": "corridos"
+}

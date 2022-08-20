@@ -1,0 +1,33 @@
+{
+  "id": 59,
+  "name": "Vou Ver Juliana",
+  "lyrics": "Quando a mare vazá\nVou vê juliana\nVou vê juliana ê\nVou vê juliana\n\nSeverista qué o dinheiro\nPra podê me atravessar\nEu nao tenho mais dinheiro\nPra pagar pra embarcá\nComo eu nao tenho dinheiro\nO remedio é esperar\nBate palma, palma, palma\nBate pé, pé, pé\nCarangueijo so é peixe\nNa vazante da maré\nÉ melhor esperá sentado\nDo que esperá em pé\nPra vê, pra vê juliana",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "when the tide ebbs\nI'm going to see Juliana\nI'm going to see Juliana\nI'm going to see Juliana\n\nSeverist than the money\nso you can cross me\nI do not have any more money\nto pay to board\nhow i don't have money\nThe remedy is to wait\nClap, clap, clap\nFoot, foot, foot\nCrab is just fish\nAt the ebb of the tide\nIt's better to wait seated\nWhat to expect standing\nTo see, to see Juliana"
+    },
+    {
+      "language": "hun",
+      "text": "amikor leáll a dagály\nMegyek Julianához\nMegyek Julianához\nMegyek Julianához\n\nSúlyosabb, mint a pénz\nhogy keresztbe vess nekem\nNincs több pénzem\nhogy fizessenek beszállásra\nhogy nincs pénzem\nAz orvosság a várakozás\nTaps, taps, taps\nLáb, láb, láb\nA rák csak hal\nAz apály apályán\nJobb ülve várni\nMire számíthatunk állva\nLátni, látni Julianát"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=AyGzNrGF0rc"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=Rq0RF9mpuQ0"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=l0yGy8clpYk&t=66"
+    }
+  ],
+  "type": "corridos"
+}

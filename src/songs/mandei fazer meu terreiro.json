@@ -1,0 +1,28 @@
+{
+  "id": 58,
+  "name": "Mandei fazer meu terreiro",
+  "lyrics": "Mandei fazer meu terreiro\nLa na beirinha do mar\nMandei fazer meu terreiro\nPara ver meu amor vadiar\nAruanda Aruanda Aruanda\n\nCoro :\n\nAruanda eeeeeeeee\n\nAruanda Aruanda Aruanda\n\nCoro :\n\nAruanda aaaaaaaaa",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I had my yard made\nThere on the edge of the sea\nI had my yard made\nTo see my love wander\nAruanda Aruanda Aruanda\n\nChoir :\n\nAruanda eeeeeeeee\n\nAruanda Aruanda Aruanda\n\nChoir :\n\nAruanda aaaaaaaaa"
+    },
+    {
+      "language": "hun",
+      "text": "Elkészítettem az udvaromat\nOtt a tenger szélén\nElkészítettem az udvaromat\nLátni, ahogy szerelmem elkalandozik\nAruanda Aruanda Aruanda\n\nKórus:\n\nAruanda eeeeeeeee\n\nAruanda Aruanda Aruanda\n\nKórus:\n\nAruanda aaaaaaaaa"
+    }
+  ],
+  "media": [
+    {
+      "type": "audio",
+      "provider": "soundcloud",
+      "link": "https://soundcloud.com/vi-va-arte-negra/mandei-fazer-meu-terreiro-aruanda-eee"
+    },
+    {
+      "type": "audio",
+      "provider": "soundcloud",
+      "link": "https://soundcloud.com/capoeira-senzala-toulouse/mandei-fazer-meu-terreiro-abacaxi-capoeira-musica"
+    }
+  ],
+  "type": "corridos"
+}
