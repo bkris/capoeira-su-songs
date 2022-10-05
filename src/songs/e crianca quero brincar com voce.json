@@ -1,0 +1,23 @@
+{
+  "id": 60,
+  "name": "Ê Criança Quero Brincar Com Você",
+  "lyrics": "Ê criança quero brincar com você\n<b>Ê criança quero brincar com você</b>\n\nNa roda de capoeira contigo eu vou aprender\n<b>Na roda de capoeira contigo eu vou aprender</b>\n\n<b>Mula sem cabeça Cuca vem pega\nSaci Pererê tá pulando sem parar\nMula sem cabeça Cuca vem pega\nSaci Pererê tá pulando sem parar</b>",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Oh child I want to play with you\n<b>I want to play with you child</b>\n\nIn the capoeira circle with you I will learn\n<b>In the capoeira circle with you I will learn</b>\n\n<b>Headless mule Cuca comes caught\nSaci Pererê is jumping non-stop\nHeadless mule Cuca comes caught\nSaci Pererê is jumping non-stop</b>"
+    },
+    {
+      "language": "hun",
+      "text": "Ó, gyermekem, játszani akarok veled\n<b>Játszani akarok veled gyermek</b>\n\nA capoeira körben veled tanulok\n<b>A capoeira körben veled tanulok</b>\n\n<b>Cuca fejetlen öszvért elkapják\nSaci Pererê megállás nélkül ugrik\nCuca fejetlen öszvért elkapják\nSaci Pererê megállás nélkül ugrik</b>"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=Pihi96kGtSA&t=444"
+    }
+  ],
+  "type": "corridos"
+}
