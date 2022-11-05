@@ -6,11 +6,22 @@
     {
       "language": "eng",
       "text": "Here is My home\nMy Balcony\nMy palm\n\nMy Straw Hat\nMy Massape\n\nEach has its story\nit's good to respect\nto conquer my balcony\nit wasn't easy\n\nHere is My home\nMy Balcony\nMy palm\n\nMy Straw Hat\nMy Massape\n\nif you don't know my story\nGet in here I'll tell you\nhas berimbau,\ntambourine and atabaquê to play\na picture on the wall\nof carybe that I had painted\nand my balcony\nis facing the sea."
+    },
+    {
+      "language": "hun",
+      "text": "itt az én házam\naz erkélyem\na tenyerem\n\nitt az én házam\naz erkélyem\na tenyerem\n\nSzalmakalapom\nA Massape-om\n\nSzalmakalapom\nA Massape-om\n\nMindenkinek megvan a maga története\njó tisztelni\nHogy meghódítsam az erkélyemet\nNem volt könnyű barátom\n\nitt az én házam\naz erkélyem\na tenyeremet\n\nitt az én házam\naz erkélyem\na tenyeremet\n\nSzalmakalapom\nA Massape-om\n\nSzalmakalapom\nA Massape-om\n\nHa nem ismered a történetemet\nGyere be, megmondom\nBerimbau, Pandeiro és Atabaque játszható\nEgy kép a falon\nAbból, amit festettem\nés az erkélyem\na tengerre néz"
     }
   ],
-  "media": {
-    "type": "video",
-    "provider": "youtube",
-    "link": "https://www.youtube.com/watch?v=QWl_Kg03eC0&t=9s"
-  }
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=QWl_Kg03eC0&t=9s"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=u6gvHQH86Tk"
+    }
+  ]
 }
