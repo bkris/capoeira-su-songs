@@ -1,0 +1,28 @@
+{
+  "id": 62,
+  "name": "O Que E Berimbau?",
+  "lyrics": "O que e berimbau? \nA cabaça, arame e um pédaco de pau \n\nO que e berimbau? \nA cabaça, arame e um pédaco de pau\n\nOlhá como e gostosó tocar berimbau \nA cabaça, arame e um pédaco de pau \n\nO que e berimbau?\nA cabaça, arame e um pédaco de pau ",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "What is a berimbau?\nThe gourd, wire and a piece of wood\n\nWhat is a berimbau?\nThe gourd, wire and a piece of wood\n\nLook how nice it is to play the berimbau\nThe gourd, wire and a piece of wood\n\nWhat is a berimbau?\nThe gourd, wire and a piece of wood"
+    },
+    {
+      "language": "hun",
+      "text": "Mi az a berimbau?\nA tök, a drót és egy darab fa\n\nMi az a berimbau?\nA tök, a drót és egy darab fa\n\nNézd, milyen jó berimbau-val játszani\nA tök, a drót és egy darab fa\n\nMi az a berimbau?\nA tök, a drót és egy darab fa"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ECNMPOKMHn4"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=2EHrr7pb5MM"
+    }
+  ],
+  "type": "corridos"
+}
