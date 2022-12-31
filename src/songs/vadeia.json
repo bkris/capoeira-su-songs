@@ -17,6 +17,11 @@
       "type": "audio",
       "provider": "soundcloud",
       "link": "https://soundcloud.com/bokatummtukote/vadeia-by-marcelo-olimpio"
+    },
+    {
+      "type": "audio",
+      "provider": "file",
+      "link": "Afro ritmo - vadeia.m4a"
     }
   ]
 }

@@ -12,9 +12,18 @@ import Preview from "./components/Preview";
 import SortOrder from "./components/SortOrder";
 
 function App() {
-  const allSongs = getSortedSongs();
+  const allSongs = getSortedSongs('date', 'desc');
   const [songs, setSongs] = useState(allSongs);
   const [selectedSong, setSelectedSong] = useState(null);
+  const [sortOrder, setSortOrder] = useState('desc');
+  const [sortBy, setSortBy] = useState('date');
+
+  function handleSortOrder(currentSortBy) {
+    if (currentSortBy !== sortBy) {
+      return;
+    }
+    setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc');
+  }
 
   let handleSearch = (e) => {
     const lowerCase = e.target.value.toLowerCase();
@@ -37,12 +46,16 @@ function App() {
   }
 
   const onSortByNameClicked = () => {
-    const allSongs = getSortedSongs('name');
+    handleSortOrder('name')
+    setSortBy('name');
+    const allSongs = getSortedSongs('name', sortOrder);
     setSongs(allSongs)
   }
 
   const onSortByDateClicked = () => {
-    const allSongs = getSortedSongs('date');
+    handleSortOrder('date')
+    setSortBy('date');
+    const allSongs = getSortedSongs('date', sortOrder);
     setSongs(allSongs)
   }
 

@@ -54,6 +54,16 @@ function Soundcloud({link}) {
   );
 }
 
+function PhysicalFile({path}) {
+  const fullPath = `${process.env.PUBLIC_URL}/records/${path}`;
+  return (
+    <audio controls preload="none">
+      <source src={fullPath} type="audio/mp4" />
+      <p>Your browser does not support HTML5 audio.</p>
+    </audio>
+  )
+}
+
 /**
  * @param {string} link
  * @param {Provider} provider
@@ -79,6 +89,10 @@ function Media({link, provider, type}) {
   }
 
   function renderAudioType() {
+    if (provider === 'file') {
+      return <PhysicalFile path={link}/>
+    }
+
     if (provider === 'soundcloud') {
       return <Soundcloud link={link}/>
     }

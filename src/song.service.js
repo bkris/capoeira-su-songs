@@ -1,5 +1,5 @@
 import songs from "./songs";
-import {deburr, isEmpty, isNil, sortBy} from "lodash";
+import {deburr, isEmpty, isNil, reverse, sortBy} from "lodash";
 import {slugify} from "voca";
 
 /** @typedef {'eng', 'hun', 'srb'} Language */
@@ -36,7 +36,7 @@ const getId = (name) => `${slugify(name)}`;
 /**
  * @returns SongInterface[]
  */
-export function getSortedSongs(sort = 'name') {
+export function getSortedSongs(sort = 'name', order = 'asc') {
   /** @type {SongInterface[]} */
   const rawSongs = sortBy(songs, (song) => {
     if (sort === 'name') {
@@ -45,12 +45,15 @@ export function getSortedSongs(sort = 'name') {
     return song.id;
   });
 
-  return rawSongs.map(song => {
+  /** @type {SongInterface[]} */
+  const preparedSongs = rawSongs.map(song => {
     return {
       ...song,
       id: getId(song.name),
     }
   })
+
+  return order === 'asc' ? preparedSongs : reverse(preparedSongs);
 }
 
 /**
