@@ -60,6 +60,9 @@ import song59 from './vou ver juliana.json';
 import song60 from './e crianca quero brincar com voce.json';
 import song61 from './meu camarada eu vim botar dende.json';
 import song62 from './o que e berimbau.json';
+import song63 from './vadeia.json';
+import song64 from './foi na beira do mar.json';
+import song65 from './a mare a mare.json';
 // import song60 from './';
 
 const songs = [
@@ -67,7 +70,7 @@ const songs = [
   song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31,
   song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
   song47, song48, song49, song50, song51, song52, song53, song54, song55, song56, song57, song58, song59, song60, song61,
-  song62
+  song62, song63, song64, song65
 ];
 
 export default songs;

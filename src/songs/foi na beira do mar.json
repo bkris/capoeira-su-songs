@@ -1,0 +1,23 @@
+{
+  "id": 64,
+  "name": "Foi na beira do mar",
+  "lyrics": "Foi na beira do mar,\nfoi na beira do mar\nEu aprendi a jogar\ncapoeira de angola na beira do mar\n\nFoi na beira do mar,\nfoi na beira do mar\nEu aprendi a jogar\ncapoeira de angola na beira do mar\n\nVou m'embora que é de noite, \ntão cedo não venho cá.\nSe iá-iá quiser me ver, \nbote seu navio no mar.\n\nFoi na beira do mar,\nfoi na beira do mar\nEu aprendi a jogar\ncapoeira de angola na beira do mar",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "It was by the sea,\nit was on the edge of the sea\nI learned to play\ncapoeira de angola by the sea\n\nIt was by the sea,\nit was on the edge of the sea\nI learned to play\ncapoeira de angola by the sea\n\nI'm leaving because it's night,\nI'm not coming here so soon.\nIf you want to see me,\nput your ship out to sea.\n\nIt was by the sea,\nit was on the edge of the sea\nI learned to play\ncapoeira de angola by the sea"
+    },
+    {
+      "language": "hun",
+      "text": "A tenger mellett volt,\na tenger szélén volt\nmegtanultam játszani\ncapoeira de angola a tenger mellett\n\nA tenger mellett volt,\na tenger szélén volt\nmegtanultam játszani\ncapoeira de angola a tenger mellett\n\nElmegyek, mert éjszaka van,\nNem jövök ide olyan hamar.\nHa látni akarsz engem,\ntedd ki a hajódat a tengerre.\n\nA tenger mellett volt,\na tenger szélén volt\nmegtanultam játszani\ncapoeira de angola a tenger mellett"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=aordzNQkxzM"
+    }
+  ],
+  "type": "corridos"
+}

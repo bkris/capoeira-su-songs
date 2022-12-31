@@ -18,6 +18,11 @@
       "type": "video",
       "provider": "youtube",
       "link": "https://www.youtube.com/watch?v=EVnOzSNvTqA"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=l2jeWOC83z0"
     }
   ]
 }
