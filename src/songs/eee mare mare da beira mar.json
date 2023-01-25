@@ -1,0 +1,28 @@
+{
+  "id": 66,
+  "name": "êêê maré, maré da beira mar",
+  "lyrics": "êêê maré, maré da beira mar\nêêê maré, maré da beira mar\n\nmaré subiu, maré desceu\nmaré subiu, maré desceu",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "It's tide, seaside tide\nIt's tide, seaside tide\n\ntide came up, tide went down\ntide came up, tide went down"
+    },
+    {
+      "language": "hun",
+      "text": "Dagály van, dagály a tengerparton\nDagály van, dagály a tengerparton\n\ndagály jött, dagály lement\ndagály jött, dagály lement"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "facebook",
+      "link": "https://www.facebook.com/881110023/videos/582696113259815/"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=nJ9fpFd8i9s"
+    }
+  ],
+  "type": "corridos"
+}
