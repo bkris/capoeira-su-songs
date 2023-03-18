@@ -1,0 +1,33 @@
+{
+  "id": 48,
+  "name": "Oh Areia oh areia",
+  "lyrics": "Oh, areia, oh, areia do mar!\nOh, areia, oh, areia!\nAbre os meus caminhos\nAreia!\nEu quero passar\nAreia!\nSou pequenininho\nAreia!\nMas eu chego lá\nAreia!\n\nOh, areia, oh, areia do mar!\nOh, areia, oh, areia!\nAreia do rio\nAreia!\nAreia do mar\nAreia!\nSou pequenininho\nAreia!\nDeus vai me guiar\nAreia!\n\n\nOh, areia, oh, areia do mar!\nOh, areia, oh, areia!\nAbre os meus caminhos\nAreia!\nEu quero passar\nAreia!\nSou pequenininho\nAreia!\nMas eu chego lá\nAreia!\n\nOh, areia, oh, areia do mar!\nOh, areia, oh, areia!\nAreia do rio\nAreia!\nAreia do mar\nAreia!\nSou pequenininho\nAreia!\nDeus vai me guiar\nAreia!\n\n\nOh, areia, oh, areia do mar!\nOh, areia, oh, areia!\nOh, areia, oh, areia do mar!\nOh, areia, oh, areia!",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Oh, sand, oh, sand of the sea!\nOh, sand, oh, sand!\nOpens my paths\nSand!\nI want to pass\nSand!\nI’m tiny\nSand!\nBut I’ll get there\nSand!\n\nOh, sand, oh, sand of the sea!\nOh, sand, oh, sand!\nSand of the river\nSand!\nSand of the sea\nSand!\nI’m tiny\nSand!\nGod will guide me\nSand!\n\nOh, sand, oh, sand of the sea!\nOh, sand, oh, sand!\nOpens my paths\nSand!\nI want to pass\nSand!\nI’m tiny\nSand!\nBut I’ll get there\nSand!\n\nOh, sand, oh, sand of the sea!\nOh, sand, oh, sand!\nSand of the river\nSand!\nSand of the sea\nSand!\nI’m tiny\nSand!\nGod will guide me\nSand!\n\nOh, sand, oh, sand of the sea!\nOh, sand, oh, sand!\nOh, sand, oh, sand of the sea!\nOh, sand, oh, sand!"
+    },
+    {
+      "language": "hun",
+      "text": "Ó, homok, ó, tenger homokja!\nÓ, homok, ó, homok!\nMegnyitja az utamat\nHomok!\nát akarok menni\nHomok!\npici vagyok\nHomok!\nDe eljutok oda\nHomok!\n\nÓ, homok, ó, tenger homokja!\nÓ, homok, ó, homok!\nA folyó homokja\nHomok!\nA tenger homokja\nHomok!\npici vagyok\nHomok!\nIsten vezetni fog\nHomok!\n\nÓ, homok, ó, tenger homokja!\nÓ, homok, ó, homok!\nMegnyitja az utamat\nHomok!\nát akarok menni\nHomok!\npici vagyok\nHomok!\nDe eljutok oda\nHomok!\n\nÓ, homok, ó, tenger homokja!\nÓ, homok, ó, homok!\nA folyó homokja\nHomok!\nA tenger homokja\nHomok!\npici vagyok\nHomok!\nIsten vezetni fog\nHomok!\n\nÓ, homok, ó, tenger homokja!\nÓ, homok, ó, homok!\nÓ, homok, ó, tenger homokja!\nÓ, homok, ó, homok!"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=L_0KDCBOP1Q"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=pk1nuRrsg4k"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=eiqfkR2OgBs"
+    }
+  ],
+  "type": "corridos"
+}

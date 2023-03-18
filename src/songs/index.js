@@ -45,7 +45,7 @@ import song44 from './jogo de dentro jogo de fora.json';
 import song45 from './moleque e tu.json';
 import song46 from './berimbau tocou ouvi o tambor bateu desci.json';
 import song47 from './ela te chama capoeira vem.json';
-import song48 from './oh areia oh areia.json';
+import song48 from './oh areia oh areia_novo.json';
 import song49 from './tumba la e ca.json';
 import song50 from './e jogo praticado na terra de sao salvador.json';
 import song51 from './nego nago.json';
