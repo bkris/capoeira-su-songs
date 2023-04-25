@@ -1,0 +1,38 @@
+{
+  "id": 67,
+  "name": "Agora sim, que mataram o meu Besouro",
+  "lyrics": "Agora sim, que mataram o meu Besouro\nDepois de morto, Besourinho cordão de ouro\n\nAgora sim, que mataram o meu Besouro\nDepois de morto, Besourinho cordão de ouro\n\nBesouro Besourinho\n\nCoro: Cordão de Ouro\n\nBesouro Besourinho\n\nCordão de Ouro",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Now that they killed my Beetle\nAfter being killed, Besourinho gold chain\n\nNow that they killed my Beetle\nAfter being killed, Besourinho gold cord\n\nBeetle Beetle\n\nGold chain\n\nBeetle Beetle\n\nGold chain"
+    },
+    {
+      "language": "hun",
+      "text": "Most, hogy megölték a Bogaram\nMiután megölték, Besourinho aranylánc\n\nMost, hogy megölték a Bogaram\nMiután megölték, Besourinho aranyzsinór\n\nBogár Bogár\n\nAranylánc\n\nBogár Bogár\n\nAranylánc"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "facebook",
+      "link": "https://www.facebook.com/watch/?v=877325842754103"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=RqnCje0-XxI&t=106s"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=LPhEZAlTs9s"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=7H9osClvhfE"
+    }
+  ],
+  "type": "corridos"
+}
