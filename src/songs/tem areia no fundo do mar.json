@@ -1,0 +1,38 @@
+{
+  "id": 68,
+  "name": "Tem areia No fundo do mar Tem areia",
+  "lyrics": "Tem areia, Tem areia\nTem areia\nNo fundo do mar\nTem areia\n\nTem areia, Tem areia\nTem areia\nNo fundo do mar\nTem areia\n\nNo fundo do mar tem pedra\nDebaixo da pedra tem areia\nOnde mora minha mãe\nMinha mãe linda sereia",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "There's sand, there's sand\nhas sand\nat the bottom of the sea\nhas sand\n\nThere's sand, there's sand\nhas sand\nat the bottom of the sea\nhas sand\n\nThere are rocks at the bottom of the sea\nUnder the stone there is sand\nWhere does my mother live?\nMy beautiful mermaid mother"
+    },
+    {
+      "language": "hun",
+      "text": "Homok van, homok van\nhomok van\na tenger fenekén\nhomok van\n\nHomok van, homok van\nhomok van\na tenger fenekén\nhomok van\n\nA tenger fenekén sziklák vannak\nA kő alatt homok van\nHol lakik anyám?\nGyönyörű sellő anyám"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=HrK3aBWdlZw"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=NZJ61jBjAWk"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=IcBjfZ4bf_U"
+    },
+    {
+      "type": "video",
+      "provider": "facebook",
+      "link": "https://www.facebook.com/watch/?v=1211543342853963"
+    }
+  ],
+  "type": "corridos"
+}
