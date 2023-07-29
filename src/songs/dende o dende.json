@@ -1,0 +1,33 @@
+{
+  "id": 69,
+  "name": "Dendê o dendê (dendê e de angola)",
+  "lyrics": "Dendê, ô dendê\nDendê, ô dendê\nDendê é de Angola\nAngola é de dendê\n\nDendê, ô dendê\nDendê, ô dendê\nDendê é de Angola\nAngola é de dendê\n\nMestre Pastinha\nFoi embora\n\nMestre Waldemar\nFoi embora\n\nMestre Bimba\nFoi embora\n\nJoão Pequeno\nFoi embora\n\nCobrinha Verde\nFoi embora",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Dendê, ô dendê\nDendê, ô dendê\nDendê is from Angola\nAngola is of dendê\n\nDendê, ô dendê\nDendê, ô dendê\nDendê is from Angola\nAngola is of dendê\n\nMestre Pastinha\nWent away\n\nMestre Waldemar\nWent away\n\nMestre Bimba\nWent away\n\nJoão Pequeno\nWent away\n\nGreen Cobrinha\nWent away"
+    },
+    {
+      "language": "hun",
+      "text": "Dendê, ô dendê\nDendê, ô dendê\nDendê Angolából származik\nAngola dendê\n\nDendê, ô dendê\nDendê, ô dendê\nDendê Angolából származik\nAngola dendê\n\nMestre Pastinha\nElment\n\nMestre Waldemar\nElment\n\nMestre Bimba\nElment\n\nJoão Pequeno\nElment\n\nZöld Cobrinha\nElment"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=6WW9w8VHzMM"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=hDSgDAwQrxc"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=0QIiZzp6Kq8&t=281"
+    }
+  ],
+  "type": "corridos"
+}
