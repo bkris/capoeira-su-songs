@@ -29,5 +29,15 @@
       "link": "https://www.youtube.com/watch?v=0QIiZzp6Kq8&t=281"
     }
   ],
-  "type": "corridos"
+  "type": "corridos",
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "\"Dendê ou Dendê\" is a phrase in Portuguese that roughly translates to \"palm oil or palm oil.\" It is a reference to a type of oil extracted from the palm tree and is used in Brazilian culture, especially in music and dance"
+    },
+    {
+      "language": "hun",
+      "text": "A „Dendê ou Dendê” egy portugál kifejezés, ami nagyjából annyit jelent, mint „pálmaolaj vagy pálmaolaj”. Ez egyfajta pálmafából kivont olajra utal, amelyet a brazil kultúrában használnak, különösen a zenében és a táncban."
+    }
+  ]
 }
