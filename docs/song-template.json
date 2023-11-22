@@ -1,14 +1,10 @@
 {
-  "id": 0,
+  "id": 26,
   "name": "",
   "lyrics": "",
   "translations": [
     {
       "language": "eng",
-      "text": ""
-    },
-    {
-      "language": "hun",
       "text": ""
     }
   ],
@@ -19,15 +15,5 @@
       "link": ""
     }
   ],
-  "type": "corridos",
-  "descriptions": [
-    {
-      "language": "eng",
-      "text": ""
-    },
-    {
-      "language": "hun",
-      "text": ""
-    }
-  ]
+  "type": "corridos"
 }
