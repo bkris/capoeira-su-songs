@@ -67,15 +67,17 @@ import song66 from './eee mare mare da beira mar.json';
 import song67 from './agora sim que mataram o meu besouro.json';
 import song68 from './tem areia no fundo do mar.json';
 import song69 from './dende o dende.json';
+import song70 from './tindolele mandou cauiza lhe chamar.json';
+import song71 from './mamae me mandou dizer.json';
 
-// import song60 from './';
+// import song70 from './';
 
 const songs = [
   song1, song2, song3, song4, song5, song6, song7, song8, song9, song10, song11, song12, song13, song14, song15, song16,
   song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31,
   song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
   song47, song48, song49, song50, song51, song52, song53, song54, song55, song56, song57, song58, song59, song60, song61,
-  song62, song63, song64, song65, song66, song67, song68, song69
+  song62, song63, song64, song65, song66, song67, song68, song69, song70, song71
 ];
 
 export default songs;
