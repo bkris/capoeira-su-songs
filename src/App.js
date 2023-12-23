@@ -27,7 +27,15 @@ function App() {
 
   let handleSearch = (e) => {
     const lowerCase = e.target.value.toLowerCase();
-    const filteredSongs = allSongs.filter(song => isEmpty(lowerCase) ? true : song.name.toLowerCase().includes(lowerCase))
+    const filteredSongs = allSongs.filter(song => {
+      if (isEmpty(lowerCase)) {
+        // returns all songs, no filtering
+        return true;
+      }
+
+      const titleContain = song.name.toLowerCase().includes(lowerCase);
+      return titleContain || song.lyrics.toLowerCase().includes(lowerCase);
+    })
     setSongs(filteredSongs);
   };
 
