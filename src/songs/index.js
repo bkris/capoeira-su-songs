@@ -69,6 +69,7 @@ import song68 from './tem areia no fundo do mar.json';
 import song69 from './dende o dende.json';
 import song70 from './tindolele mandou cauiza lhe chamar.json';
 import song71 from './mamae me mandou dizer.json';
+import song72 from './chora capoeira mestre bimba foi se embora.json';
 
 // import song70 from './';
 
