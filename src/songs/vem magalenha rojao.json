@@ -1,0 +1,33 @@
+{
+  "id": 74,
+  "name": "Capoira Do Brazil, Sergio Mendes (Magalehna)",
+  "lyrics": "Vem Magalenha rojão, traz a lenha pro fogão, vem fazer armação.\nHoje é um dia de sol, alegria de coió, é curtir o verão.\n\nTe te te te te te\nte te te te te te\nte te te te te te\n\nVem Magalenha rojão, traz a senha pro fogão.. te te te coração.\nHoje é um dia de sol, alegria de xodó, meu dever de verão.\n\nTe te te te te te\nte te te te te te\nte te te te te te\n\nO calangulango, do calango da pretinha, to cantando essa mudinha pra\nsenhora se lembrar,\ndaquele tempo que vivia lá na roça com uma filha\nna barriga e outra filha pra cria.",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Magalenha Rojão comes, brings the wood for the stove, comes and builds it.\nToday is a sunny day, joyful, enjoying the summer.\n\nTe te te te te te\nte te te te te te\nte te te te te te\n\nCome Magalenha rojão, bring the password to the stove... your heart.\nToday is a sunny day, the joy of my baby, my summer duty.\n\nTe te te te te te\nte te te te te te\nte te te te te te\n\nThe calangulango, from the pretinha's calango, I'm singing this little song to\nlady remember,\nfrom that time when he lived there in the countryside with his daughter\nin the belly and another daughter to raise."
+    },
+    {
+      "language": "hun",
+      "text": "Magalenha Rojão jön, hozza a fát a kályhához, jön és megépíti.\nMa napsütéses nap van, vidám, élvezi a nyarat.\n\nTe te te te te te\nte te te te te te\nte te te te te te\n\nGyere Magalenha rojão, hozd a jelszót a tűzhelyhez... a szíved.\nMa napsütéses nap van, a babám öröme, a nyári kötelességem.\n\nTe te te te te te\nte te te te te te\nte te te te te te\n\nA calangulango, a pretinha kalangójából, ezt a kis dalt éneklem\nhölgy emlékszik,\nabból az időből, amikor ott élt vidéken a lányával\na hasban és egy másik lányt nevelni."
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=K_tnZYbXk14"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=MxQXtNXcGYM"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=m2OaNkLGAmg"
+    }
+  ],
+  "type": "samba"
+}

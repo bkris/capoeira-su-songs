@@ -1,0 +1,38 @@
+{
+  "id": 73,
+  "name": "Mas que nada",
+  "lyrics": "Ô ô ô ô ô ariá raio, oba, oba, oba \nÔ ô ô ô ô ariá raio, oba, oba, oba\n\nMas que nada, sai da minha frente, eu quero passar\nPois o samba está animado, e o que eu quero é sambar\nEsse samba, que é mixto de maracatu\nÉ samba de preto velho, samba de preto tu\nMas que nada, um samba como esse tão legal\nVoce não vai querer, que eu chegue no final\n\nO o o o o ariá raio, oba, oba, oba\nO o o o o ariá raio, oba, oba, oba",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Oh, oh, oh, oh, oh ariá ray, hey, hey, hey\nOh, oh, oh, oh, oh ariá ray, hey, hey, hey\n\nBut nothing, get out of my way, I want to pass\nBecause the samba is lively, and what I want is to dance\nThis samba, which is a mix of maracatu\nIt's a samba of the old black man, a samba of the black man, you\nBut nothing, a samba like this is so cool\nYou won't want me to reach the end\n\nOh, oh, oh, oh, oh ariá ray, hey, hey, hey\nOh, oh, oh, oh, oh ariá ray, hey, hey, hey"
+    },
+    {
+      "language": "hun",
+      "text": "Oh, oh, oh, oh, oh ariá ray, hey, hey, hey\nOh, oh, oh, oh, oh ariá ray, hey, hey, hey\n\nBut nothing, get out of my way, I want to pass\nBecause the samba is lively, and what I want is to dance\nThis samba, which is a mix of maracatu\nIt's a samba of the old black man, a samba of the black man, you\nBut nothing, a samba like this is so cool\nYou won't want me to reach the end\n\nOh, oh, oh, oh, oh ariá ray, hey, hey, hey\nOh, oh, oh, oh, oh ariá ray, hey, hey, hey"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=VXX-nfQRlO8"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=M5fCPJsrnpE"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ehq-MU5AYJY"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=NYU2oN3_ht0"
+    }
+  ],
+  "type": "samba"
+}
