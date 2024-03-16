@@ -6,11 +6,37 @@
     {
       "language": "eng",
       "text": "Maranhão Maranhão ô ô\nI miss my Maranhão.\n\nMaranhão Maranhão ô ô\nI miss my Maranhão.\n\nGirl releases her hair\nUnder the lemon tree\nIf the lemon tree died 4 o\nI paid with my money.\nMaranhão, Maranhão\n\nMaranhão Maranhão ô ô\nHow I miss my Maranhão\n\nMaranhão Maranhão ô ô\nI miss my Maranhão.\n\nOn the bottom of the sea has a goldfish\nBeautiful girl, I'm your boyfriend.\nOn the bottom of the sea has a fish of scale\nBeautiful girl, it's me who loves you.\n\nCombing their hair\nWith fin comb\nI wish I was a lamp, oh\nTo light your bed\nMaranhão Maranhão\n\nMaranhão Maranhão ô ô\nHow I miss my Maranhão\n\nMaranhão Maranhão ô ô\nI miss my Maranhão.\n"
+    },
+    {
+      "language": "hun",
+      "text": "Maranhão Maranhão ô ô\nmilyen hiányzik a Maranhão-m ô ô\n\nMaranhão Maranhão ô ô\nmilyen hiányzik a Maranhão-m ô ô\n\nkislány, engedd el a hajad\na citromfa alatt\nha a citromfa meghal ô ô\nén fizetek a pénzemen ô ô\nMaranhão, Maranhão\n\nMaranhão Maranhão ô ô\nMilyen hiányzik a Maranhão-m ô ô\n\nMaranhão Maranhão ô ô\nmilyen hiányzik a Maranhão-m ô ô\n\na tenger mélyén van egy aranyhal\ngyönyörű kislány, én vagyok a barátod\na tenger mélyén van egy pikkelyes hal\ngyönyörű kislány, én vagyok az, aki szeret téged\n\na hajad fésülöd\nbálnacsonk fésűvel\nbárcsak gyertya lehetnék, ô ô\nhogy megvilágítsam az ágyadat\nMaranhão Maranhão\n\nMaranhão Maranhão ô ô\nMilyen hiányzik a Maranhão-m ô ô\n\nMaranhão Maranhão ô ô\nmilyen hiányzik a Maranhão-m ô ô"
     }
   ],
-  "media": {
-    "type": "video",
-    "provider": "youtube",
-    "link": "https://www.youtube.com/watch?v=8slE1UskRS4"
-  }
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=8slE1UskRS4"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=sePDH2mgLxk"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=_dR-RMDgVm8"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "\"Maranhão\" refers to a state in northeastern Brazil. It is not a specific term or word used within the movements or techniques of Capoeira itself. Instead, it's likely that the mention of Maranhão in the text you provided is related to expressing sentiments or nostalgia for the region, as the lyrics seem to convey a sense of longing and missing the place."
+    },
+    {
+      "language": "hun",
+      "text": "\"Maranhão\" egy északkeleti Brazíliában található államra utal. Ez nem egy specifikus kifejezés vagy szó, amit magában a Capoeira mozdulataiban vagy technikáiban használnak. Ehelyett valószínű, hogy a te általad szolgáltatott szövegben a Maranhão említése az érzelmek kifejezésével vagy a régió iránti nosztalgiával kapcsolatos, mivel a dalszöveg vágyakozás és a hely hiányának érzetét közvetíti."
+    }
+  ]
 }
