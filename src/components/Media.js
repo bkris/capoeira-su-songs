@@ -1,5 +1,7 @@
 import {Ratio} from "react-bootstrap";
-import {isEmpty} from "lodash";
+import { InstagramEmbed, TikTokEmbed, FacebookEmbed } from 'react-social-media-embed';
+
+import {isEmpty, split} from "lodash";
 
 const NO_MEDIA = <></>;
 
@@ -24,20 +26,46 @@ function FacebookVideo({link}) {
   const urlEncodedLink = encodeURI(link);
   const fullLink = `https://www.facebook.com/plugins/video.php?href=${urlEncodedLink}&show_text=0`
 
+  const iframe_container = {
+    left: 0,
+    width: "100%",
+    height: 800,
+    position: "relative"
+  }
+
+  const iframe = {
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    position: "absolute",
+    border: 0
+  }
+
   return (
-    <Ratio>
+    <div style={iframe_container}>
       <iframe
         src={fullLink}
         id={urlEncodedLink} title={urlEncodedLink}
-        style={{border: 'none', overflow: 'hidden'}} scrolling="no" frameBorder="0"
+        style={iframe} scrolling="no" frameBorder="0"
         allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"/>
-    </Ratio>
+    </div>
   )
 }
 
 function InstagramVideo({link}) {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">{link}</a>
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <InstagramEmbed url={link} width={328} />
+    </div>
+  );
+}
+
+function TikTokVideo({link}) {
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center' }}>
+      <TikTokEmbed url={link} width={325} />
+    </div>
   );
 }
 
@@ -83,6 +111,10 @@ function Media({link, provider, type}) {
 
     if (provider === 'instagram') {
       return <InstagramVideo link={link}/>
+    }
+
+    if (provider === 'tiktok') {
+      return <TikTokVideo link={link}/>
     }
 
     return NO_MEDIA;
