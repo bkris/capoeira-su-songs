@@ -1,0 +1,33 @@
+{
+  "id": 75,
+  "name": "Tava na beira da praia, vendo o que a mare fazia",
+  "lyrics": "Tava na beira da praia vendo que maré fazia\n<b>Tava na beira da praia vendo que maré fazia</b>\nTava na beira da praia vendo que maré fazia\n<b>Tava na beira da praia vendo que maré fazia</b>\n\nQuando eu ia ela voltava\n<b>Quando eu voltava ela ia</b>\nQuando eu ia ela voltava\n<b>Quando eu voltava ela ia</b>\nMas eu ia ela voltava\n<b>Quando eu voltava ela ia</b>",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I was on the edge of the beach, seeing what the tide would do\n<b>I was on the edge of the beach, seeing what the tide would do</b>\nI was on the edge of the beach, seeing what the tide would do\n<b>I was on the edge of the beach, seeing what the tide would do</b>\n\nWhen I went, she returned\n<b>When I returned, she went</b>\nWhen I went, she returned\n<b>When I returned, she went</b>\nBut I went, she returned\n<b>When I returned, she went</b>"
+    },
+    {
+      "language": "hun",
+      "text": "A tengerparton álltam, nézve, mit csinál a dagály\n<b>A tengerparton álltam, nézve, mit csinál a dagály</b>\nA tengerparton álltam, nézve, mit csinál a dagály\n<b>A tengerparton álltam, nézve, mit csinál a dagály</b>\n\nAmikor mentem, ő visszajött\n<b>Amikor visszajövök, ő elmegy</b>\nAmikor mentem, ő visszajött\n<b>Amikor visszajövök, ő elmegy</b>\nDe amikor mentem, ő visszajött\n<b>Amikor visszajövök, ő elmegy</b>"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=eloAY1xDUi8"
+    },
+    {
+      "type": "video",
+      "provider": "instagram",
+      "link": "https://www.instagram.com/p/C8_SZtJudGc/"
+    },
+    {
+      "type": "video",
+      "provider": "tiktok",
+      "link": "https://www.tiktok.com/@mauroacamb/video/7316228625185934598"
+    }
+  ],
+  "type": "corridos"
+}
