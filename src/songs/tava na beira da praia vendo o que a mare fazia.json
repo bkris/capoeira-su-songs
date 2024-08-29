@@ -20,6 +20,11 @@
     },
     {
       "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=Bjdz0F34GGQ"
+    },
+    {
+      "type": "video",
       "provider": "instagram",
       "link": "https://www.instagram.com/p/C8_SZtJudGc/"
     },
