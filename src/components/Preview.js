@@ -14,7 +14,7 @@ function Preview({selectedSong, onHide}) {
         <Modal.Title>{selectedSong.name}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <div className="fs-3 fw-bold pre-line" dangerouslySetInnerHTML={{__html: selectedSong.lyrics}}/>
+        <div className="fs-3 fw-bolder pre-line" dangerouslySetInnerHTML={{__html: selectedSong.lyrics}}/>
       </Modal.Body>
     </Modal>
   );

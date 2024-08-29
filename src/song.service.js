@@ -3,13 +3,24 @@ import {deburr, isEmpty, isNil, reverse, sortBy} from "lodash";
 import {slugify} from "voca";
 
 /** @typedef {'eng', 'hun', 'srb'} Language */
-/** @typedef {'youtube', 'facebook', 'instagram', 'soundcloud'} Provider */
 /** @typedef {'video', 'audio'} MediaType */
 /** @typedef {'corridos', 'ladainha', 'maculele'} SongType */
 
 /**
+ * @readonly
+ * @enum {string}
+ * */
+export const MediaProviders = {
+  YT: 'youtube',
+  FB: 'facebook',
+  IG: 'instagram',
+  SC: 'soundcloud',
+  TK: 'tiktok'
+}
+
+/**
  * @typedef Media
- * @property {Provider} provider
+ * @property {MediaProviders} provider
  * @property {MediaType} type
  * @property {string} link
  */

@@ -1,7 +1,8 @@
 import {Ratio} from "react-bootstrap";
 import { InstagramEmbed, TikTokEmbed, FacebookEmbed } from 'react-social-media-embed';
 
-import {isEmpty, split} from "lodash";
+import {isEmpty} from "lodash";
+import {MediaProviders} from "../song.service";
 
 const NO_MEDIA = <></>;
 
@@ -94,26 +95,26 @@ function PhysicalFile({path}) {
 
 /**
  * @param {string} link
- * @param {Provider} provider
+ * @param {MediaProviders} provider
  * @param {MediaType} type
  * @returns {JSX.Element|*}
  * @constructor
  */
 function Media({link, provider, type}) {
   function renderVideoType() {
-    if (provider === 'youtube') {
+    if (provider === MediaProviders.YT) {
       return <YoutubeVideo link={link}/>
     }
 
-    if (provider === 'facebook') {
+    if (provider === MediaProviders.FB) {
       return <FacebookVideo link={link}/>
     }
 
-    if (provider === 'instagram') {
+    if (provider === MediaProviders.IG) {
       return <InstagramVideo link={link}/>
     }
 
-    if (provider === 'tiktok') {
+    if (provider === MediaProviders.TK) {
       return <TikTokVideo link={link}/>
     }
 
