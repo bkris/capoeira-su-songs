@@ -74,6 +74,7 @@ import song73 from './mais que nada.json';
 import song74 from './vem magalenha rojao.json';
 import song75 from './tava na beira da praia vendo o que a mare fazia.json';
 import song76 from './cobra veneno de formiga.json';
+import song77 from './maria conga esse quilombo e nosso.json';
 
 // import song70 from './';
 
@@ -82,7 +83,8 @@ const songs = [
   song17, song18, song19, song20, song21, song22, song23, song24, song25, song26, song27, song28, song29, song30, song31,
   song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
   song47, song48, song49, song50, song51, song52, song53, song54, song55, song56, song57, song58, song59, song60, song61,
-  song62, song63, song64, song65, song66, song67, song68, song69, song70, song71, song72, song73, song74, song75, song76
+  song62, song63, song64, song65, song66, song67, song68, song69, song70, song71, song72, song73, song74, song75, song76,
+  song77
 ];
 
 export default songs;

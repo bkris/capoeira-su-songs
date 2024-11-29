@@ -1,0 +1,48 @@
+{
+  "id": 77,
+  "name": "Maria Conga, esse quilombo é nosso",
+  "lyrics": "Maria Conga, esse quilombo é nosso\nEsse quilombo é meu e seu\nEsse quilombo é nosso\n\nMaria Conga, esse quilombo é nosso\nEsse quilombo é meu e seu\nEsse quilombo é nosso",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Maria Conga, this quilombo is ours\nThis quilombo is mine and yours\nThis quilombo is ours\n\nMaria Conga, this quilombo is ours\nThis quilombo is mine and yours\nThis quilombo is ours"
+    },
+    {
+      "language": "hun",
+      "text": "Maria Conga, ez a quilombo a miénk\nEz a quilombo az enyém és a tiéd\nEz a quilombo a miénk\n\nMaria Conga, ez a quilombo a miénk\nEz a quilombo az enyém és a tiéd\nEz a quilombo a miénk"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ZWk67O3DhoA"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=QhK4o6sk3l4"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=CSrJozyNIzw"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=JR6b_BdPiQ4"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "This song is a tribute to Maria Conga, a significant figure in Brazilian history, especially in the leadership of quilombos, communities founded by escaped slaves. The song expresses a sense of community and the importance of a common heritage.\n\nMaria Conga lived in the 19th century and played a significant role in the fight against slavery in Brazil. She is credited with founding the Quilombo Maria Conga, which provided refuge for escaped slaves and other persecuted people. Her story has become a symbol of resistance and freedom for Afro-Brazilian communities."
+    },
+    {
+      "language": "hun",
+      "text": "Ez a dal tisztelgés Maria Conga előtt, aki egy jelentős alak volt a brazil történelemben, különösen a quilombók, azaz a szökött rabszolgák által alapított közösségek vezetésében. A dal kifejezi a közösséghez tartozás érzését és a közös örökség fontosságát.\n\nMaria Conga a 19. században élt, és jelentős szerepet játszott a rabszolgaság elleni küzdelemben Brazíliában. Nevéhez fűződik a Quilombo Maria Conga alapítása, amely menedéket nyújtott a szökött rabszolgáknak és más üldözötteknek. Története az ellenállás és a szabadság szimbólumává vált az afro-brazil közösségek számára."
+    }
+  ],
+  "type": "corridos"
+}
