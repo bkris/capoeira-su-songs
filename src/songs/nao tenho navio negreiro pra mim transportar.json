@@ -1,0 +1,53 @@
+{
+  "id": 78,
+  "name": "Não tenho navio negreiro pra mim transportar",
+  "lyrics": "Não tenho navio negreiro pra mim transportar\nNem tenho carro de ferro pra mim manobrar\nAndei, andei, mas aqui cheguei\nPra jogar capoeira, vadiar com você\nComo vai, como vai, como vai você?\nComo vai, como vai você?\nComo vai, como vai, como vai você?\nComo vai, como vai você?\n",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "I don't have a slave ship to transport me\nNor do I have an iron car to maneuver\nI walked, I walked, but here I arrived\nTo play capoeira, to wander with you\nHow are you, how are you, how are you?\nHow are you, how are you?\nHow are you, how are you, how are you?\nHow are you, how are you?\n"
+    },
+    {
+      "language": "hun",
+      "text": "Nincs rabszolgahajóm, hogy elszállítson\nNincs vasból készült kocsim, hogy irányítsam\nMentem, mentem, de ideértem\nHogy capoeirát játsszak, veled vándoroljak\nHogy vagy, hogy vagy, hogy vagy te?\nHogy vagy, hogy vagy te?\nHogy vagy, hogy vagy, hogy vagy te?\nHogy vagy, hogy vagy te?\n"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/shorts/4tKWM6woF4A"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=JvY4bwr9Kpc"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=RC5Y4gPObDk"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=zkl44QfHACY&t=12s"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=kqHeb8QSqFE"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "The song expresses the joy of practicing capoeira and the sense of belonging to a community, while alluding to the difficulties of the past and overcoming them."
+    },
+    {
+      "language": "hun",
+      "text": "A dal a capoeira gyakorlásának örömét és a közösséghez tartozás érzését fejezi ki, miközben utal a múlt nehézségeire és az azokon való felülemelkedésre."
+    }
+  ],
+  "type": "corridos"
+}

@@ -6,6 +6,10 @@
     {
       "language": "eng",
       "text": ""
+    },
+    {
+      "language": "hun",
+      "text": ""
     }
   ],
   "media": [
@@ -13,6 +17,16 @@
       "type": "video",
       "provider": "youtube",
       "link": ""
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": ""
+    },
+    {
+      "language": "hun",
+      "text": ""
     }
   ],
   "type": "corridos"
