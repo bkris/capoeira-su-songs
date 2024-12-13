@@ -37,6 +37,11 @@
       "type": "video",
       "provider": "youtube",
       "link": "https://www.youtube.com/watch?v=kqHeb8QSqFE"
+    },
+    {
+      "type": "audio",
+      "provider": "file",
+      "link": "como vai como vai.m4a"
     }
   ],
   "descriptions": [
