@@ -4,6 +4,7 @@ import LanguageSelector from "./LanguageSelector";
 import {useState} from "react";
 import MediaSection from "./MediaSection";
 import {AiOutlineFullscreen} from "react-icons/ai";
+import {LanguageService} from "../language.service";
 
 /**
  * Song component
@@ -29,14 +30,8 @@ export default function Song({
                 descriptions=[],
                 onFullScreen
 }) {
-  const DEFAULT_LANGUAGE = 'eng';
-
-  function getLatestSelectedLanguage() {
-    const lang = localStorage.getItem("preferred_language");
-    return lang && DEFAULT_LANGUAGE
-  }
-
-  const language = getLatestSelectedLanguage();
+  const language = LanguageService.getLanguage();
+  console.log(language);
   const hasDescription = !isEmpty(descriptions);
   const translation = translations.find(translation => translation.language === language)
   const description = descriptions.find(desc => desc.language === language)
@@ -49,7 +44,7 @@ export default function Song({
     const translation = translations.find(translation => translation.language === lang);
     const description = descriptions.find(desc => desc.language === lang);
 
-    localStorage.setItem("preferred_language", lang);
+    LanguageService.storeLanguage(lang);
 
     setTranslationText(translation ? translation.text : "");
     setDescriptionText(description ? description.text : "");

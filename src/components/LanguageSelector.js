@@ -1,6 +1,7 @@
 import {ButtonGroup, ToggleButton} from "react-bootstrap";
 import {useState} from "react";
 import {head} from "lodash";
+import {LanguageService} from "../language.service";
 
 /**
  * @param {string} id
@@ -11,7 +12,7 @@ import {head} from "lodash";
  */
 function LanguageSelector({id, languages = [], onLanguageChange}) {
   /** @type {Language} */
-  const defaultLanguage = head(languages) || 'eng';
+  const defaultLanguage = LanguageService.getLanguage();
   const [radioValue, setRadioValue] = useState(defaultLanguage);
 
   if (languages.length <= 1) {
