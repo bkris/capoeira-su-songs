@@ -1,0 +1,38 @@
+{
+  "id": 79,
+  "name": "É de ioiô, É de iaiá",
+  "lyrics": "É de ioiô\nÉ de iaiá\nCapoeira de Angola jogada na beira do mar\n\nÉ de ioio\nÉ de iaia\nCapoeira de Angola jogada na beira do mar",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "It's ioiô's\nIt's iaiá's\nCapoeira Angola played at the edge of the sea\n\nIt's ioiô's\nIt's iaiá's\nCapoeira Angola played at the edge of the sea"
+    },
+    {
+      "language": "hun",
+      "text": "Ez jojó\nAz iaiá-ból származik\nCapoeira de Angola játszott a tenger mellett\n\nEz yoyo\nIiaiából származik\nCapoeira de Angola játszott a tenger mellett"
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=IUI_hgdQAwU"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=KmyhSWyTX3o"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=8ElT_ookVKQ"
+    },
+    {
+      "type": "audio",
+      "provider": "soundcloud",
+      "link": "https://soundcloud.com/capoeira-senzala-toulouse/e-de-ioio-e-de-iaia-mestre-pernalonga-capoeira-musica"
+    }
+  ],
+  "type": "corridos"
+}

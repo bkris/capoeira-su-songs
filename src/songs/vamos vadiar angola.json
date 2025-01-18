@@ -1,0 +1,53 @@
+{
+  "id": 80,
+  "name": "Vamos Vadiar Angola",
+  "lyrics": "Vamos vadiar Angola\nAngola Vamos vadiar\n\nVamos vadiar Angola\nTodos Vamos vadiar\n\nDaqui pra li, de cá pra lá\nDe cá pra lá vamos vadiar\n\nVamos vadiar angola\nAngola Vamos vadiar",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Let’s play around Angola\nAngola let’s play around\n\nLet’s play around Angola\nWe are all going to play around\n\nFrom here to there, here to there\nFrom there to here let’s play\n\nLet’s play around Angola\nAngola let’s play around"
+    },
+    {
+      "language": "hun",
+      "text": "Menjünk barangolni Angolába\nAngola Menjünk barangolni\n\nMenjünk barangolni Angolába\nMind lógjunk\n\nInnen oda, innen oda\nInnen oda fogunk bolyongani\n\nMenjünk barangolni Angolába\nAngola Menjünk barangolni"
+    }
+  ],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "The word vadiar comes up a lot in capoeira music and doesn't have a perfect English counterpart. In capoeira it refers to the style and manner of playing and to the roda itself. It loosely translates to fiddling around, loafing about, or wasting time. It isn't used in a negative connotation however- it's more to say \"play around\" or \"goof off\"."
+    },
+    {
+      "language": "hun",
+      "text": "A vadiar szó gyakran előfordul a capoeira zenében, és nincs tökéletes angol megfelelője. A capoeirában a játék stílusára és módjára, valamint magára a rodára utal. Lazán azt jelenti, hogy hegedülni, cipelgetni vagy időt veszíteni. Nem használják negatív konnotációban, hanem inkább azt mondják, hogy \"játssz körül\" vagy \"hülyéskedj\"."
+    }
+  ],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ia7a-b3NXhY"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://youtu.be/ZFipIcYc7zs?t=57"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=tdI_okM7sPM"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=3pjv34p16xE"
+    },
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=8kTsUwJaDUw"
+    }
+  ],
+  "type": "corridos"
+}
