@@ -26,10 +26,17 @@ export default function Song({
                 type,
                 translations = [],
                 media,
-                language='eng',
                 descriptions=[],
                 onFullScreen
 }) {
+  const DEFAULT_LANGUAGE = 'eng';
+
+  function getLatestSelectedLanguage() {
+    const lang = localStorage.getItem("preferred_language");
+    return lang && DEFAULT_LANGUAGE
+  }
+
+  const language = getLatestSelectedLanguage();
   const hasDescription = !isEmpty(descriptions);
   const translation = translations.find(translation => translation.language === language)
   const description = descriptions.find(desc => desc.language === language)
@@ -41,6 +48,8 @@ export default function Song({
   const onLanguageChange = (lang) => {
     const translation = translations.find(translation => translation.language === lang);
     const description = descriptions.find(desc => desc.language === lang);
+
+    localStorage.setItem("preferred_language", lang);
 
     setTranslationText(translation ? translation.text : "");
     setDescriptionText(description ? description.text : "");
