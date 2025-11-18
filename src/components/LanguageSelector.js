@@ -10,7 +10,7 @@ import {LanguageService} from "../language.service";
  * @returns {JSX.Element}
  * @constructor
  */
-function LanguageSelector({id, languages = [], onLanguageChange}) {
+function LanguageSelector({id, languages = [], onLanguageChange, onToggle}) {
   /** @type {Language} */
   const defaultLanguage = LanguageService.getLanguage();
   const [radioValue, setRadioValue] = useState(defaultLanguage);
@@ -22,6 +22,12 @@ function LanguageSelector({id, languages = [], onLanguageChange}) {
   const handleLanguageChange = (e) => {
     setRadioValue(e.currentTarget.value);
     onLanguageChange(e.currentTarget.value);
+  }
+
+  const handleToggle = () => {
+    if (onToggle) {
+      onToggle();
+    }
   }
 
   const buttons = languages.map((lng, idx) => {
@@ -37,6 +43,7 @@ function LanguageSelector({id, languages = [], onLanguageChange}) {
         value={lng}
         checked={radioValue === lng}
         onChange={handleLanguageChange}
+        onClick={handleToggle}
       >
         {lng}
       </ToggleButton>
