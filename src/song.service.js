@@ -57,12 +57,14 @@ export function getSortedSongs(sort = 'name', order = 'asc') {
   });
 
   /** @type {SongInterface[]} */
-  const preparedSongs = rawSongs.map(song => {
+  const preparedSongs = rawSongs.map((song) => {
+    const numericId = song.id;
     return {
       ...song,
+      numericId,
       id: getId(song.name),
-    }
-  })
+    };
+  });
 
   return order === 'asc' ? preparedSongs : reverse(preparedSongs);
 }

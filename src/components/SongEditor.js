@@ -78,9 +78,44 @@ const buildSongDataFromExisting = (song) => ({
   media: normalizeMediaList(song?.media)
 });
 
+const parseNumericId = (value) => {
+  const parsed = Number(value);
+  return Number.isFinite(parsed) && parsed > 0 ? parsed : null;
+};
+
+const getSongNumericId = (song) => {
+  if (!song) {
+    return null;
+  }
+  const numericId = parseNumericId(song.numericId);
+  if (numericId) {
+    return numericId;
+  }
+  return parseNumericId(song.id);
+};
+
+const getNextSequentialId = (songs = []) => {
+  if (!Array.isArray(songs) || songs.length === 0) {
+    return 1;
+  }
+  const highestId = songs.reduce((max, song) => {
+    const numericId = getSongNumericId(song);
+    if (numericId && numericId > max) {
+      return numericId;
+    }
+    return max;
+  }, 0);
+  return highestId + 1;
+};
+
 function SongEditor() {
   const location = useLocation();
   const navigate = useNavigate();
+  const preparedSongs = useMemo(() => getSortedSongs('name', 'asc'), []);
+  const nextSequentialId = useMemo(
+    () => getNextSequentialId(preparedSongs),
+    [preparedSongs]
+  );
   const [songData, setSongData] = useState(() => buildInitialSongData());
   const [jsonOutput, setJsonOutput] = useState('');
   const [copyMessage, setCopyMessage] = useState('');
@@ -92,9 +127,12 @@ function SongEditor() {
     if (!songIdFromQuery) {
       return null;
     }
-    const preparedSongs = getSortedSongs('name', 'asc');
     return preparedSongs.find((song) => song.id === songIdFromQuery) || null;
-  }, [songIdFromQuery]);
+  }, [songIdFromQuery, preparedSongs]);
+  const activeSongId = useMemo(
+    () => getSongNumericId(selectedSong) ?? nextSequentialId,
+    [selectedSong, nextSequentialId]
+  );
 
   useEffect(() => {
     if (selectedSong) {
@@ -239,7 +277,6 @@ function SongEditor() {
   };
 
   const handleSave = () => {
-    console.log("asdadas")
     const formattedTranslations = songData.translations
       .filter((translation) => translation.language.trim() || translation.text.trim())
       .map((translation) => ({
@@ -255,6 +292,7 @@ function SongEditor() {
       }));
 
     const formattedData = {
+      id: activeSongId,
       name: songData.name.trim(),
       lyrics: songData.lyrics,
       translations: formattedTranslations,
@@ -306,9 +344,12 @@ function SongEditor() {
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
         <div>
           <h1 className="mb-2">Song JSON Editor</h1>
-          <p className="mb-0 text-muted">
+          <p className="mb-1 text-muted">
             Capture every field that appears in the song collection, then export the structured JSON in one click.
           </p>
+          <small className="text-muted d-block">
+            {selectedSong ? `Editing existing song (ID ${activeSongId})` : `Next song will use ID ${activeSongId}`}
+          </small>
         </div>
         <div className="d-flex gap-2">
           <Button type="button" variant="outline-secondary" onClick={handleBackClick}>Back to songs</Button>
