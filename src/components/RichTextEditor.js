@@ -70,8 +70,8 @@ const RichTextEditor = ({ label, value, onChange, placeholder }) => {
   ];
 
   return (
-    <div className="rich-text-editor">
-      {label && <label className="form-label">{label}</label>}
+    <div className="rich-text-editor mt-1">
+      {label && <label className="form-label me-2">{label}</label>}
       <ButtonGroup size="sm" className="editor-toolbar mb-2">
         {toolbarButtons.map((button) => (
           <Button
