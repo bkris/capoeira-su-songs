@@ -5,6 +5,7 @@ import {useEffect, useState} from "react";
 import MediaSection from "./MediaSection";
 import {AiOutlineFullscreen} from "react-icons/ai";
 import {LanguageService} from "../language.service";
+import { Link } from 'react-router-dom';
 
 /**
  * Song component
@@ -28,7 +29,8 @@ export default function Song({
                 translations = [],
                 media,
                 descriptions=[],
-                onFullScreen
+                onFullScreen,
+                showEditorLink = false
 }) {
   const language = LanguageService.getLanguage();
   const hasDescription = !isEmpty(descriptions);
@@ -94,6 +96,17 @@ export default function Song({
         <h4 className="d-flex justify-content-between border-bottom">
           <span>{name} &nbsp; {type && <span className="badge bg-secondary">{type}</span>}</span>
           <div>
+            {showEditorLink && (
+              <Button
+                as={Link}
+                to={`/editor?songId=${encodeURIComponent(id)}`}
+                size="sm"
+                className="me-2 mb-2"
+                variant="outline-primary"
+              >
+                Open in editor
+              </Button>
+            )}
             <Button size="sm" className="me-2 mb-2" onClick={() => onFullScreen({id, name, lyrics})}
                     variant="outline-dark" ><AiOutlineFullscreen/></Button>
             <LanguageSelector

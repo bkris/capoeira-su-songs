@@ -3,7 +3,8 @@ import Header from './Header';
 import TableOfContent from './TableOfContent';
 import SongList from './SongList';
 import SearchHeader from './SearchHeader';
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import {
   getSongElementByPageUrl,
   getSortedSongs,
@@ -21,6 +22,11 @@ function SongLibrary() {
   const [selectedSong, setSelectedSong] = useState(null);
   const [sortOrder, setSortOrder] = useState('desc');
   const [sortBy, setSortBy] = useState('date');
+  const location = useLocation();
+  const isEditorMode = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get('editor') === 'true';
+  }, [location.search]);
 
   function handleSortOrder(currentSortBy) {
     if (currentSortBy !== sortBy) {
@@ -73,12 +79,12 @@ function SongLibrary() {
   return (
     <>
       <Container fluid="lg">
-        <Header />
+        <Header showEditorShortcut={isEditorMode} />
         <TableOfContent songs={songs}>
           <SearchHeader onSearch={handleSearch} />
           <SortOrder onSortByName={onSortByNameClicked} onSortByDate={onSortByDateClicked} />
         </TableOfContent>
-        <SongList songs={songs} onFullScreen={onFullscreenClicked} />
+        <SongList songs={songs} onFullScreen={onFullscreenClicked} showEditorLinks={isEditorMode} />
       </Container>
       {selectedSong && <Preview selectedSong={selectedSong} onHide={onFullscreenClosed} />}
       <ScrollToTop />

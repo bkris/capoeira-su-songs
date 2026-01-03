@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect, useMemo, useState } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -7,6 +7,7 @@ import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import RichTextEditor from './RichTextEditor';
+import { getSortedSongs } from '../song.service';
 
 const createEmptyTranslation = () => ({
   language: '',
@@ -33,17 +34,80 @@ const createEmptyMedia = () => ({
 });
 
 const buildInitialSongData = () => ({
-  id: '',
   name: '',
   lyrics: '',
   translations: [createEmptyTranslation()],
-  media: [createEmptyMedia()]
+  media: [createEmptyMedia()],
+  descriptions: [createEmptyTranslation()]
+});
+
+const normalizeTranslatedList = (items) => {
+  if (!Array.isArray(items) || items.length === 0) {
+    return [createEmptyTranslation()];
+  }
+  return items.map((item) => ({
+    language: item?.language || '',
+    text: item?.text || ''
+  }));
+};
+
+const normalizeMediaList = (items) => {
+  if (!items) {
+    return [createEmptyMedia()];
+  }
+  if (Array.isArray(items)) {
+    const formatted = items.map((item) => ({
+      type: item?.type || '',
+      provider: item?.provider || '',
+      link: item?.link || ''
+    }));
+    return formatted.length > 0 ? formatted : [createEmptyMedia()];
+  }
+  return [{
+    type: items?.type || '',
+    provider: items?.provider || '',
+    link: items?.link || ''
+  }];
+};
+
+const buildSongDataFromExisting = (song) => ({
+  name: song?.name || '',
+  lyrics: song?.lyrics || '',
+  translations: normalizeTranslatedList(song?.translations),
+  descriptions: normalizeTranslatedList(song?.descriptions),
+  media: normalizeMediaList(song?.media)
 });
 
 function SongEditor() {
+  const location = useLocation();
   const [songData, setSongData] = useState(() => buildInitialSongData());
   const [jsonOutput, setJsonOutput] = useState('');
   const [copyMessage, setCopyMessage] = useState('');
+  const songIdFromQuery = useMemo(() => {
+    const params = new URLSearchParams(location.search);
+    return params.get('songId');
+  }, [location.search]);
+  const selectedSong = useMemo(() => {
+    if (!songIdFromQuery) {
+      return null;
+    }
+    const preparedSongs = getSortedSongs('name', 'asc');
+    return preparedSongs.find((song) => song.id === songIdFromQuery) || null;
+  }, [songIdFromQuery]);
+
+  useEffect(() => {
+    if (selectedSong) {
+      setSongData(buildSongDataFromExisting(selectedSong));
+      setJsonOutput('');
+      setCopyMessage('');
+      return;
+    }
+    if (!songIdFromQuery) {
+      setSongData(buildInitialSongData());
+      setJsonOutput('');
+      setCopyMessage('');
+    }
+  }, [selectedSong, songIdFromQuery]);
 
   const updateField = (field, value) => {
     setSongData((prev) => ({
@@ -72,6 +136,43 @@ function SongEditor() {
         return updatedMedia;
       })
     }));
+  };
+
+  const updateDescriptions = (index, field, value) => {
+    setSongData((prev) => ({
+      ...prev,
+      descriptions: prev.descriptions.map((description, idx) => {
+        if (idx !== index) {
+          return description;
+        }
+        return {
+          ...description,
+          [field]: value
+        };
+      })
+    }));
+  };
+
+  const addDescription = () => {
+    setSongData((prev) => ({
+      ...prev,
+      descriptions: [...prev.descriptions, createEmptyTranslation()]
+    }));
+  };
+
+  const removeDescription = (index) => {
+    setSongData((prev) => {
+      if (prev.descriptions.length === 1) {
+        return {
+          ...prev,
+          descriptions: [createEmptyTranslation()]
+        };
+      }
+      return {
+        ...prev,
+        descriptions: prev.descriptions.filter((_, idx) => idx !== index)
+      };
+    });
   };
 
   const addMedia = () => {
@@ -137,6 +238,7 @@ function SongEditor() {
   };
 
   const handleSave = () => {
+    console.log("asdadas")
     const formattedTranslations = songData.translations
       .filter((translation) => translation.language.trim() || translation.text.trim())
       .map((translation) => ({
@@ -144,11 +246,18 @@ function SongEditor() {
         text: translation.text
       }));
 
+    const formattedDescriptions = songData.descriptions
+      .filter((description) => description.language.trim() || description.text.trim())
+      .map((description) => ({
+        language: description.language.trim(),
+        text: description.text
+      }));
+
     const formattedData = {
-      id: songData.id === '' ? null : Number(songData.id),
       name: songData.name.trim(),
       lyrics: songData.lyrics,
       translations: formattedTranslations,
+      descriptions: formattedDescriptions,
       media: songData.media
         .map((mediaItem) => ({
           type: mediaItem.type.trim(),
@@ -162,7 +271,11 @@ function SongEditor() {
   };
 
   const handleReset = () => {
-    setSongData(buildInitialSongData());
+    if (selectedSong) {
+      setSongData(buildSongDataFromExisting(selectedSong));
+    } else {
+      setSongData(buildInitialSongData());
+    }
     setJsonOutput('');
     setCopyMessage('');
   };
@@ -202,19 +315,7 @@ function SongEditor() {
         <Card.Header as="h2" className="h5 mb-0">Song metadata</Card.Header>
         <Card.Body>
           <Row className="g-4">
-            <Col md={3}>
-              <Form.Group controlId="songId">
-                <Form.Label>Song ID</Form.Label>
-                <Form.Control
-                  type="number"
-                  min="0"
-                  value={songData.id}
-                  onChange={(event) => updateField('id', event.target.value)}
-                  placeholder="e.g. 42"
-                />
-              </Form.Group>
-            </Col>
-            <Col md={4}>
+            <Col md={8}>
               <Form.Group controlId="songName">
                 <Form.Label>Song name</Form.Label>
                 <Form.Control
@@ -234,6 +335,58 @@ function SongEditor() {
               placeholder="Compose or paste the full lyrics here..."
             />
           </Form.Group>
+        </Card.Body>
+      </Card>
+
+      <Card className="mb-4">
+        <Card.Header as="h2" className="h5 mb-0 d-flex justify-content-between align-items-center">
+          <span>Translations</span>
+          <Button size="sm" variant="outline-primary" onClick={addTranslation}>
+            Add translation
+          </Button>
+        </Card.Header>
+        <Card.Body>
+          {songData.translations.map((translation, index) => (
+            <div key={`translation-${index}`} className="translation-block">
+              <div className="d-flex justify-content-between align-items-center mb-2">
+                <h3 className="h6 mb-0">Translation #{index + 1}</h3>
+                <Button
+                  size="sm"
+                  variant="outline-danger"
+                  onClick={() => removeTranslation(index)}
+                >
+                  Remove
+                </Button>
+              </div>
+              <Row className="g-3 mb-3">
+                <Col md={3}>
+                  <Form.Group controlId={`translation-lang-${index}`}>
+                    <Form.Label>Language</Form.Label>
+                    <Form.Select
+                      value={translation.language}
+                      onChange={(event) => updateTranslation(index, 'language', event.target.value)}
+                    >
+                      <option value="">Select language</option>
+                      <option value="eng">English</option>
+                      <option value="hun">Hungarian</option>
+                      <option value="ser">Serbian</option>
+                    </Form.Select>
+                  </Form.Group>
+                </Col>
+                <Col md={9}>
+                  <Form.Group controlId={`translation-text-${index}`}>
+                    <RichTextEditor
+                      label="Translated text"
+                      value={translation.text}
+                      onChange={(value) => updateTranslation(index, 'text', value)}
+                      placeholder="Add the translated lyrics..."
+                    />
+                  </Form.Group>
+                </Col>
+              </Row>
+              {index < songData.translations.length - 1 && <hr />}
+            </div>
+          ))}
         </Card.Body>
       </Card>
 
@@ -312,48 +465,51 @@ function SongEditor() {
 
       <Card className="mb-4">
         <Card.Header as="h2" className="h5 mb-0 d-flex justify-content-between align-items-center">
-          <span>Translations</span>
-          <Button size="sm" variant="outline-primary" onClick={addTranslation}>
-            Add translation
+          <span>Descriptions</span>
+          <Button size="sm" variant="outline-primary" onClick={addDescription}>
+            Add description
           </Button>
         </Card.Header>
         <Card.Body>
-          {songData.translations.map((translation, index) => (
-            <div key={`translation-${index}`} className="translation-block">
+          {songData.descriptions.map((description, index) => (
+            <div key={`description-${index}`} className="description-block">
               <div className="d-flex justify-content-between align-items-center mb-2">
-                <h3 className="h6 mb-0">Translation #{index + 1}</h3>
+                <h3 className="h6 mb-0">Description #{index + 1}</h3>
                 <Button
                   size="sm"
                   variant="outline-danger"
-                  onClick={() => removeTranslation(index)}
+                  onClick={() => removeDescription(index)}
                 >
                   Remove
                 </Button>
               </div>
               <Row className="g-3 mb-3">
                 <Col md={3}>
-                  <Form.Group controlId={`translation-lang-${index}`}>
+                  <Form.Group controlId={`description-lang-${index}`}>
                     <Form.Label>Language</Form.Label>
-                    <Form.Control
-                      type="text"
-                      value={translation.language}
-                      onChange={(event) => updateTranslation(index, 'language', event.target.value)}
-                      placeholder="eng, por..."
-                    />
+                    <Form.Select
+                      value={description.language}
+                      onChange={(event) => updateDescriptions(index, 'language', event.target.value)}
+                    >
+                      <option value="">Select language</option>
+                      <option value="eng">English</option>
+                      <option value="hun">Hungarian</option>
+                      <option value="ser">Serbian</option>
+                    </Form.Select>
                   </Form.Group>
                 </Col>
                 <Col md={9}>
-                  <Form.Group controlId={`translation-text-${index}`}>
+                  <Form.Group controlId={`description-text-${index}`}>
                     <RichTextEditor
-                      label="Translated text"
-                      value={translation.text}
-                      onChange={(value) => updateTranslation(index, 'text', value)}
-                      placeholder="Add the translated lyrics..."
+                      label="Description text"
+                      value={description.text}
+                      onChange={(value) => updateDescriptions(index, 'text', value)}
+                      placeholder="Explain the song context..."
                     />
                   </Form.Group>
                 </Col>
               </Row>
-              {index < songData.translations.length - 1 && <hr />}
+              {index < songData.descriptions.length - 1 && <hr />}
             </div>
           ))}
         </Card.Body>
