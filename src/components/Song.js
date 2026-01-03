@@ -4,6 +4,7 @@ import LanguageSelector from "./LanguageSelector";
 import {useEffect, useState} from "react";
 import MediaSection from "./MediaSection";
 import {AiOutlineFullscreen} from "react-icons/ai";
+import { FaPencilAlt } from 'react-icons/fa';
 import {LanguageService} from "../language.service";
 import { Link } from 'react-router-dom';
 
@@ -103,8 +104,9 @@ export default function Song({
                 size="sm"
                 className="me-2 mb-2"
                 variant="outline-primary"
+                aria-label="Open in editor"
               >
-                Open in editor
+                <FaPencilAlt />
               </Button>
             )}
             <Button size="sm" className="me-2 mb-2" onClick={() => onFullScreen({id, name, lyrics})}
