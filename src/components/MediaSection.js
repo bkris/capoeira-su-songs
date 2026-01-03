@@ -1,7 +1,8 @@
-import {Accordion, AccordionContext, Col} from "react-bootstrap";
-import {isArray, isEmpty} from "lodash";
-import Media from "./Media";
-import {useContext} from "react";
+import { Accordion, AccordionContext, Col } from 'react-bootstrap';
+import { isArray, isEmpty } from 'lodash';
+import { useContext } from 'react';
+import { FaFacebook, FaFileAudio, FaInstagram, FaLink, FaSoundcloud, FaTiktok, FaYoutube } from 'react-icons/fa';
+import Media from './Media';
 
 /**
  * Renders the media section in songs component
@@ -14,6 +15,26 @@ export default function MediaSection({media}) {
     return <></>;
   }
 
+  const providerIconMap = {
+    youtube: FaYoutube,
+    facebook: FaFacebook,
+    instagram: FaInstagram,
+    tiktok: FaTiktok,
+    soundcloud: FaSoundcloud,
+    file: FaFileAudio
+  };
+
+  const renderHeaderLabel = (mediaItem) => {
+    const providerKey = (mediaItem.provider || '').toLowerCase();
+    const Icon = providerIconMap[providerKey] || FaLink;
+    return (
+      <div className="d-flex align-items-center gap-2 w-100 text-truncate">
+        <Icon className="flex-shrink-0 text-muted" title={providerKey || 'link'} aria-hidden="true" />
+        <span className="text-truncate">{mediaItem.link}</span>
+      </div>
+    );
+  };
+
   /**
    * @param {Media} m
    * @param {number} index
@@ -21,7 +42,7 @@ export default function MediaSection({media}) {
    */
   const renderItem = (m, index = 0) => (
     <Accordion.Item eventKey={index.toString()} key={index}>
-      <Accordion.Header style={{overflow: 'hidden'}}>{m.link}</Accordion.Header>
+      <Accordion.Header style={{ overflow: 'hidden' }}>{renderHeaderLabel(m)}</Accordion.Header>
       <Accordion.Body>
         <RenderOnlyExpanded eventKey={index.toString()}>
           <Col md={{span: 8, offset: 2}} lg={{ span: 6, offset: 3 }}>
