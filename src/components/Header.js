@@ -1,7 +1,7 @@
-import {Row, Col, Button} from "react-bootstrap";
+import { Row, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-function Header({ showEditorShortcut = false }) {
+function Header({ showEditorShortcut = false, onCloseEditorMode }) {
   return (
     <Row className="mb-5">
       <Col md={8} className="d-flex ">
@@ -15,9 +15,14 @@ function Header({ showEditorShortcut = false }) {
       </Col>
       {showEditorShortcut && (
         <Col md={4} className="d-flex justify-content-md-end align-items-start mt-3 mt-md-0">
-          <Button as={Link} to="/editor" variant="primary">
-            Open editor
-          </Button>
+          <div className="d-flex gap-2">
+            <Button as={Link} to="/editor" variant="primary">
+              Open editor
+            </Button>
+            <Button variant="outline-secondary" onClick={onCloseEditorMode}>
+              Close editor mode
+            </Button>
+          </div>
         </Col>
       )}
     </Row>

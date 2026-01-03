@@ -3,8 +3,8 @@ import Header from './Header';
 import TableOfContent from './TableOfContent';
 import SongList from './SongList';
 import SearchHeader from './SearchHeader';
-import { useEffect, useMemo, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import {
   getSongElementByPageUrl,
   getSortedSongs,
@@ -23,10 +23,17 @@ function SongLibrary() {
   const [sortOrder, setSortOrder] = useState('desc');
   const [sortBy, setSortBy] = useState('date');
   const location = useLocation();
-  const isEditorMode = useMemo(() => {
-    const params = new URLSearchParams(location.search);
-    return params.get('editor') === 'true';
-  }, [location.search]);
+  const navigate = useNavigate();
+  const [isEditorMode, setIsEditorMode] = useState(() => {
+    if (typeof window === 'undefined') {
+      return false;
+    }
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('editor') === 'true') {
+      return true;
+    }
+    return window.localStorage.getItem('capoeiraEditorMode') === 'true';
+  });
 
   function handleSortOrder(currentSortBy) {
     if (currentSortBy !== sortBy) {
@@ -54,6 +61,26 @@ function SongLibrary() {
     scrollToSection(songElement);
   }, []);
 
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.localStorage.setItem('capoeiraEditorMode', isEditorMode ? 'true' : 'false');
+    }
+    const params = new URLSearchParams(location.search);
+    const hasEditorParam = params.get('editor') === 'true';
+    if (isEditorMode && !hasEditorParam) {
+      params.set('editor', 'true');
+      navigate({ pathname: location.pathname, search: `?${params.toString()}` }, { replace: true });
+    } else if (!isEditorMode && hasEditorParam) {
+      params.delete('editor');
+      const nextSearch = params.toString();
+      navigate({ pathname: location.pathname, search: nextSearch ? `?${nextSearch}` : '' }, { replace: true });
+    }
+  }, [isEditorMode, location.pathname, location.search, navigate]);
+
+  const handleCloseEditorMode = () => {
+    setIsEditorMode(false);
+  };
+
   const onFullscreenClicked = (song) => {
     setSelectedSong(song);
   };
@@ -79,7 +106,7 @@ function SongLibrary() {
   return (
     <>
       <Container fluid="lg">
-        <Header showEditorShortcut={isEditorMode} />
+        <Header showEditorShortcut={isEditorMode} onCloseEditorMode={handleCloseEditorMode} />
         <TableOfContent songs={songs}>
           <SearchHeader onSearch={handleSearch} />
           <SortOrder onSortByName={onSortByNameClicked} onSortByDate={onSortByDateClicked} />
