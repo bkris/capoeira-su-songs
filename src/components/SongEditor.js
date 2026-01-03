@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -80,6 +80,7 @@ const buildSongDataFromExisting = (song) => ({
 
 function SongEditor() {
   const location = useLocation();
+  const navigate = useNavigate();
   const [songData, setSongData] = useState(() => buildInitialSongData());
   const [jsonOutput, setJsonOutput] = useState('');
   const [copyMessage, setCopyMessage] = useState('');
@@ -296,6 +297,10 @@ function SongEditor() {
     }
   };
 
+  const handleBackClick = () => {
+    navigate(-1);
+  };
+
   return (
     <Container fluid="lg" className="py-4 song-editor">
       <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-4">
@@ -306,7 +311,7 @@ function SongEditor() {
           </p>
         </div>
         <div className="d-flex gap-2">
-          <Button as={Link} to="/" variant="outline-secondary">Back to songs</Button>
+          <Button type="button" variant="outline-secondary" onClick={handleBackClick}>Back to songs</Button>
           <Button variant="outline-warning" onClick={handleReset}>Reset</Button>
         </div>
       </div>
