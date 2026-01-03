@@ -540,6 +540,10 @@ function SongEditor() {
           </Card.Body>
         </Card>
       )}
+      <div className="d-flex justify-content-end mt-4 gap-2">
+        <Button type="button" variant="outline-secondary" onClick={handleBackClick}>Back to songs</Button>
+        <Button variant="outline-warning" onClick={handleReset}>Reset</Button>
+      </div>
     </Container>
   );
 }
