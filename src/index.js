@@ -8,10 +8,26 @@ import { BrowserRouter } from 'react-router-dom';
 // Importing the Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+const getBasename = () => {
+  const publicUrl = process.env.PUBLIC_URL;
+  if (!publicUrl) {
+    return '/capoeira-su-songs';
+  }
+  try {
+    const url = new URL(publicUrl);
+    return url.pathname === '/' ? '/capoeira-su-songs' : url.pathname.replace(/\/$/, '');
+  } catch (error) {
+    if (publicUrl.startsWith('/')) {
+      return publicUrl;
+    }
+    return `/${publicUrl}`;
+  }
+};
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={getBasename()}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
