@@ -1,0 +1,23 @@
+{
+  "id": 84,
+  "name": "Me chama pra Capoeira que eu vou",
+  "lyrics": "Chama pra capoeira que eu vou\n\nChama pra capoeira eu vou lá\n\nChama que o meu mestre me chamo\n\nChama que a roda vai começar ",
+  "translations": [
+    {
+      "language": "hun",
+      "text": "Hív a capoeira, indulok  \n\nSzól a capoeira, ott vagyok  \n\nHív a mester, engem hív  \n\nHív a roda, kezdődik"
+    },
+    {
+      "language": "eng",
+      "text": "Call me to capoeira, I will go  \n\nCall me to capoeira, I’ll show  \n\nMy mestre calls, I hear the sound  \n\nThe roda’s starting, gather around"
+    }
+  ],
+  "descriptions": [],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=Up1OF3aVKp0"
+    }
+  ]
+}
