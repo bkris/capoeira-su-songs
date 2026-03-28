@@ -1,18 +1,27 @@
 {
   "id": 88,
   "name": "Fro de Juá",
-  "lyrics": "Fro fro fro de juá\nFro fro fro de juá\nFro fro fro de juá\nFro fro fro de juá\n\nFui no mato apanhar fro\nFro de Juá\n\nFui no mato apanhar fro\nFro de Juá\n\nFui no mato apanhar fro\nFro de Juá\n\nFui no mato apanhar fro\nFro de Juá",
+  "lyrics": "Fro fro fro de juá\n<b>Fro fro fro de juá</b>\nFro fro fro de juá\n<b>Fro fro fro de juá</b>\n\nFui no mato apanhar fro\n<b>Fro de Juá</b>\n\nFui no mato apanhar fro\n<b>Fro de Juá</b>\n\nFui no mato apanhar fro\n<b>Fro de Juá</b>\n\nFui no mato apanhar fro\n<b>Fro de Juá</b>",
   "translations": [
     {
       "language": "eng",
-      "text": "Fro fro fro of juá\nFro fro fro of juá\nFro fro fro of juá\nFro fro fro of juá\n\nI went into the woods to pick up fro\nFro of Juá\n\nI went into the woods to pick up fro\nFro of Juá\n\nI went into the woods to pick up fro\nFro of Juá\n\nI went into the woods to pick up fro\nFro of Juá"
+      "text": "Fro fro fro of juá\n<b>Fro fro fro of juá</b>\nFro fro fro of juá\n<b>Fro fro fro of juá</b>\n\nI went into the woods to pick up fro\n<b>Fro of Juá</b>\n\nI went into the woods to pick up fro\n<b>Fro of Juá</b>\n\nI went into the woods to pick up fro\n<b>Fro of Juá</b>\n\nI went into the woods to pick up fro\n<b>Fro of Juá</b>"
     },
     {
       "language": "hun",
-      "text": "Juá-ból ide-oda\nJuá-ból ide-oda\nJuá-ból ide-oda\nJuá-ból ide-oda\n\nBementem az erdőbe, hogy felvegyek\nJuá-ból\n\nBementem az erdőbe, hogy felvegyek\nJuá-ból\n\nBementem az erdőbe, hogy felvegyek\nJuá-ból\n\nBementem az erdőbe, hogy felvegyek\n\nJuá-ból\n\nBementem az erdőbe, hogy felvegyek\nJuá-ból"
+      "text": "Fro fro fro a juá-ról\n<b>Fro fro fro a juá-ról</b>\nFro fro fro a juá-ról\n<b>Fro fro fro a juá-ról  </b>\n\nKimentem az erdőbe fro-t szedni\n<b>Juá fro-t  </b>\n\nKimentem az erdőbe fro-t szedni\n<b>Juá fro-t  </b>\n\nKimentem az erdőbe fro-t szedni\n<b>Juá fro-t  </b>\n\nKimentem az erdőbe fro-t szedni\n<b>Juá fro-t </b> "
     }
   ],
-  "descriptions": [],
+  "descriptions": [
+    {
+      "language": "eng",
+      "text": "So the song is describing someone going into nature to collect something useful.\n\n“Fui no mato” → “I went into the forest”\n→ Refers to nature, rural life, survival, and Afro-Brazilian roots.\n\n“Juá” → a real plant:\n→ Juá tree\n→ Native to Brazil (especially Northeast)"
+    },
+    {
+      "language": "hun",
+      "text": "Tehát a dal arról szól, hogy valaki kimegy a természetbe, hogy valami hasznosat gyűjtsön.\n\n„Fui no mato” → „Kimentem az erdőbe”\n→ A természetre, a vidéki életre, a túlélésre és az afrobrazil gyökerekre utal.\n\n„Juá” → egy igazi növény:\n→ Juá fa\n→ Brazíliában (különösen északkeleten) őshonos"
+    }
+  ],
   "media": [
     {
       "type": "video",
