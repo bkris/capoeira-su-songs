@@ -1,0 +1,33 @@
+{
+  "id": 89,
+  "name": "Aqui na minha casa não falta dende",
+  "lyrics": "Eee aruandê Eee aruandê\nAqui na minha casa não falta dendê\n\n<b>Eee aruandê Eee aruandê</b>\n<b>Aqui na minha casa não falta dendê</b>\n\n\nAqui na minha casa\n\n<b>Não falta dendê</b>\n\n\nAqui na minha casa\n\n<b>Não falta dendê</b>",
+  "translations": [
+    {
+      "language": "eng",
+      "text": "Eee aruandê Eee aruandê\nHere in my house there&#39;s never a shortage of palm oil\n\n<b>Eee aruandê Eee aruandê</b>\n\n<b>Here in my house there&#39;s never a shortage of palm oil</b>\n\n\nHere in my house\n\n<b>There&amp;#39;s never a shortage of palm oil</b>\n\n\nHere in my house\n\n<b>There&#39;s never a shortage of palm oil</b>"
+    },
+    {
+      "language": "hun",
+      "text": "Eee aruandê Eee aruandê\nItt a házamban soha nincs hiány pálmaolajból\n\n<b>Eee aruandê Eee aruandê</b>\n\n<b>Itt a házamban soha nincs hiány pálmaolajból</b>\n\n\nItt a házamban\n\n<b>Soha nincs hiány pálmaolajból</b>\n\n\nItt a házamban\n\n<b>Soha nincs hiány pálmaolajból</b>"
+    }
+  ],
+  "descriptions": [],
+  "media": [
+    {
+      "type": "video",
+      "provider": "youtube",
+      "link": "https://www.youtube.com/watch?v=ksYnZ3W7Whw"
+    },
+    {
+      "type": "video",
+      "provider": "instagram",
+      "link": "https://www.instagram.com/reels/DZ9mJQ5ApjV/"
+    },
+    {
+      "type": "video",
+      "provider": "instagram",
+      "link": "https://www.instagram.com/reels/DN8qvF8id2Y/"
+    }
+  ]
+}

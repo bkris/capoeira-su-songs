@@ -86,6 +86,7 @@ import song85 from './capoeira me chama da licenca meu senhor.json'
 import song86 from './oh mae quero ver quem que nao chora.json';
 import song87 from './eu dei um corte de facao.json';
 import song88 from './fro de jua.json';
+import song89 from './aqui na minha casa nao falta dende.json';
 
 // import song80 from './';
 
@@ -95,7 +96,7 @@ const songs = [
   song32, song33, song34, song35, song36, song37, song38, song39, song40, song41, song42, song43, song44, song45, song46,
   song47, song48, song49, song50, song51, song52, song53, song54, song55, song56, song57, song58, song59, song60, song61,
   song62, song63, song64, song65, song66, song67, song68, song69, song70, song71, song72, song73, song74, song75, song76,
-  song77, song78, song79, song80, song81, song82, song83, song84, song85, song86, song87, song88
+  song77, song78, song79, song80, song81, song82, song83, song84, song85, song86, song87, song88, song89
 ];
 
 export default songs;
